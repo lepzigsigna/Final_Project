@@ -1,0 +1,1492 @@
+2020-10-13 10:42:21,461 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 10:42:31,150 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 10:43:35,497 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 10:43:45,934 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 10:44:10,050 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 10:44:19,290 INFO  [Test]    Entered username: duy 
+2020-10-13 10:44:19,379 INFO  [Test]    Entered password: duy123 
+2020-10-13 10:44:22,402 INFO  [Test] Clicked Login button 
+2020-10-13 10:44:23,966 INFO  [Test] Clicked button Article Manager 
+2020-10-13 10:44:31,666 INFO  [Test] Clicked the New button 
+2020-10-13 10:44:31,960 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 10:44:32,110 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 10:44:47,570 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 10:49:41,647 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 10:49:50,296 INFO  [Test]    Entered username: duy 
+2020-10-13 10:49:50,406 INFO  [Test]    Entered password: duy123 
+2020-10-13 10:49:52,117 INFO  [Test] Clicked Login button 
+2020-10-13 10:49:53,520 INFO  [Test] Clicked button Article Manager 
+2020-10-13 10:50:00,398 INFO  [Test] Clicked the New button 
+2020-10-13 10:50:00,653 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 10:50:00,813 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 10:50:04,941 INFO  [Test] Click the Save and Close Button 
+2020-10-13 10:50:05,041 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 10:50:06,536 INFO  [Test] Clicked the Archive button 
+2020-10-13 10:50:07,071 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 11:04:09,247 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:04:18,346 INFO  [Test]    Entered username: duy 
+2020-10-13 11:04:18,501 INFO  [Test]    Entered password: duy123 
+2020-10-13 11:04:20,268 INFO  [Test] Clicked Login button 
+2020-10-13 11:04:21,769 INFO  [Test] Clicked button Article Manager 
+2020-10-13 11:04:44,971 INFO  [Test] Clicked the New button 
+2020-10-13 11:04:45,226 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 11:04:45,360 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 11:04:47,089 INFO  [Test] Click the Save and Close Button 
+2020-10-13 11:04:47,208 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 11:04:48,636 INFO  [Test] Clicked the Archive button 
+2020-10-13 11:04:49,217 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 11:11:31,458 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:11:41,918 INFO  [Test]    Entered username: duy 
+2020-10-13 11:11:42,029 INFO  [Test]    Entered password: duy123 
+2020-10-13 11:11:43,631 INFO  [Test] Clicked Login button 
+2020-10-13 11:11:43,715 INFO  [Test] Clicked button Article Manager 
+2020-10-13 11:11:59,017 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 11:12:19,134 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:12:28,568 INFO  [Test]    Entered username: duy 
+2020-10-13 11:12:28,661 INFO  [Test]    Entered password: duy123 
+2020-10-13 11:12:33,611 INFO  [Test] Clicked Login button 
+2020-10-13 11:12:35,218 INFO  [Test] Clicked button Article Manager 
+2020-10-13 11:12:35,276 INFO  [Test] Clicked the New button 
+2020-10-13 11:12:50,528 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 11:13:38,913 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:13:47,582 INFO  [Test]    Entered username: duy 
+2020-10-13 11:13:47,679 INFO  [Test]    Entered password: duy123 
+2020-10-13 11:13:49,210 INFO  [Test] Clicked Login button 
+2020-10-13 11:13:50,594 INFO  [Test] Clicked button Article Manager 
+2020-10-13 11:13:58,360 INFO  [Test] Clicked the New button 
+2020-10-13 11:13:58,646 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 11:13:58,856 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 11:14:00,726 INFO  [Test] Click the Save and Close Button 
+2020-10-13 11:14:00,818 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 11:14:02,264 INFO  [Test] Clicked the Archive button 
+2020-10-13 11:14:17,925 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 11:16:28,476 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:16:37,071 INFO  [Test]    Entered username: duy 
+2020-10-13 11:16:37,175 INFO  [Test]    Entered password: duy123 
+2020-10-13 11:16:39,322 INFO  [Test] Clicked Login button 
+2020-10-13 11:16:42,842 INFO  [Test] Clicked button Article Manager 
+2020-10-13 11:16:50,505 INFO  [Test] Clicked the New button 
+2020-10-13 11:16:50,737 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 11:16:50,882 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 11:16:54,201 INFO  [Test] Click the Save and Close Button 
+2020-10-13 11:16:54,328 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 11:16:56,025 INFO  [Test] Clicked the Archive button 
+2020-10-13 11:17:11,626 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 11:18:47,422 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:18:56,246 INFO  [Test]    Entered username: duy 
+2020-10-13 11:18:56,336 INFO  [Test]    Entered password: duy123 
+2020-10-13 11:18:58,038 INFO  [Test] Clicked Login button 
+2020-10-13 11:19:00,820 INFO  [Test] Clicked button Article Manager 
+2020-10-13 11:19:09,792 INFO  [Test] Clicked the New button 
+2020-10-13 11:19:10,041 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 11:19:10,195 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 11:19:13,287 INFO  [Test] Click the Save and Close Button 
+2020-10-13 11:19:13,390 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 11:19:15,255 INFO  [Test] Clicked the Archive button 
+2020-10-13 11:19:30,588 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 11:22:37,118 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:22:47,589 INFO  [Test]    Entered username: duy 
+2020-10-13 11:22:47,753 INFO  [Test]    Entered password: duy123 
+2020-10-13 11:22:49,438 INFO  [Test] Clicked Login button 
+2020-10-13 11:22:50,857 INFO  [Test] Clicked button Article Manager 
+2020-10-13 11:22:59,219 INFO  [Test] Clicked the New button 
+2020-10-13 11:22:59,428 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 11:22:59,583 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 11:23:01,150 INFO  [Test] Click the Save and Close Button 
+2020-10-13 11:23:01,271 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 11:23:02,491 INFO  [Test] Clicked the Archive button 
+2020-10-13 11:23:02,727 INFO  [Test] Waited for element! 
+2020-10-13 11:23:03,109 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 11:32:08,883 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:32:45,971 INFO  [Test] ------------------------------ CLOSE ALL ACTIVE BROWSER ------------------------------
+
+ 
+2020-10-13 11:33:09,645 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:33:46,463 INFO  [Test] ------------------------------ CLOSE ALL ACTIVE BROWSER ------------------------------
+
+ 
+2020-10-13 11:38:38,166 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 11:39:15,040 INFO  [Test] ------------------------------ CLOSE ALL ACTIVE BROWSER ------------------------------
+
+ 
+2020-10-13 13:21:03,962 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:21:12,413 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:21:12,542 INFO  [Test]    Entered username: duy 
+2020-10-13 13:21:12,636 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:21:14,570 INFO  [Test] Clicked Login button 
+2020-10-13 13:21:16,045 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:21:22,837 INFO  [Test] Clicked the New button 
+2020-10-13 13:21:23,053 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 13:21:23,140 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 13:21:24,784 INFO  [Test] Click the Save and Close Button 
+2020-10-13 13:21:24,881 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 13:21:26,107 INFO  [Test] Clicked the Archive button 
+2020-10-13 13:21:26,548 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 13:23:03,006 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:23:11,463 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:23:11,624 INFO  [Test]    Entered username: duy 
+2020-10-13 13:23:11,727 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:23:13,335 INFO  [Test] Clicked Login button 
+2020-10-13 13:23:14,741 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:23:20,778 INFO  [Test] Clicked the New button 
+2020-10-13 13:23:21,028 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 13:23:21,177 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 13:23:22,750 INFO  [Test] Click the Save and Close Button 
+2020-10-13 13:23:22,852 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 13:23:24,094 INFO  [Test] Clicked the Archive button 
+2020-10-13 13:23:39,894 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 13:27:08,882 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:27:17,382 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:27:17,532 INFO  [Test]    Entered username: duy 
+2020-10-13 13:27:17,605 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:27:19,260 INFO  [Test] Clicked Login button 
+2020-10-13 13:27:19,322 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:27:34,632 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 13:27:43,958 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:27:52,642 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:27:52,872 INFO  [Test]    Entered username: duy 
+2020-10-13 13:27:52,959 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:27:54,588 INFO  [Test] Clicked Login button 
+2020-10-13 13:27:55,959 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:28:01,854 INFO  [Test] Clicked the New button 
+2020-10-13 13:28:02,098 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 13:28:02,228 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 13:28:03,859 INFO  [Test] Click the Save and Close Button 
+2020-10-13 13:28:03,968 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 13:28:05,204 INFO  [Test] Clicked the Archive button 
+2020-10-13 13:28:20,606 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 13:29:16,169 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:29:24,735 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:29:24,881 INFO  [Test]    Entered username: duy 
+2020-10-13 13:29:24,960 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:29:26,701 INFO  [Test] Clicked Login button 
+2020-10-13 13:29:28,164 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:29:34,209 INFO  [Test] Clicked the New button 
+2020-10-13 13:29:34,433 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 13:29:34,584 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 13:29:36,140 INFO  [Test] Click the Save and Close Button 
+2020-10-13 13:29:36,258 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 13:29:37,512 INFO  [Test] Clicked the Archive button 
+2020-10-13 13:29:40,975 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 13:44:00,805 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:44:09,534 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:44:09,539 INFO  [Test] *************************************************************************** 
+2020-10-13 13:44:09,541 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 13:44:09,542 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 13:44:09,543 INFO  [Test] [Step 2,3,4]: Login the system 
+2020-10-13 13:44:09,765 INFO  [Test]    Entered username: duy 
+2020-10-13 13:44:09,921 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:44:11,759 INFO  [Test] Clicked Login button 
+2020-10-13 13:44:11,759 INFO  [Test] [Step 5]: Select Content > Article Manager 
+2020-10-13 13:44:13,264 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:44:13,264 INFO  [Test] [Step 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 13:44:13,485 INFO  [Test] Waited for element! 
+2020-10-13 13:44:19,752 INFO  [Test] Clicked the New button 
+2020-10-13 13:44:19,752 INFO  [Test] [Step 7,8,9,10]: Create a new article 
+2020-10-13 13:44:19,943 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 13:44:20,124 INFO  [Test] Click the Save and Close Button 
+2020-10-13 13:44:20,125 INFO  [Test] Verify Point: 
+2020-10-13 13:44:35,334 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 13:45:30,314 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:45:39,138 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:45:39,141 INFO  [Test] *************************************************************************** 
+2020-10-13 13:45:39,142 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 13:45:39,142 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 13:45:39,142 INFO  [Test] [Step 2,3,4]: Login the system 
+2020-10-13 13:45:39,275 INFO  [Test]    Entered username: duy 
+2020-10-13 13:45:39,372 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:45:41,002 INFO  [Test] Clicked Login button 
+2020-10-13 13:45:41,002 INFO  [Test] [Step 5]: Select Content > Article Manager 
+2020-10-13 13:45:41,074 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:45:41,074 INFO  [Test] [Step 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 13:45:56,398 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 13:46:16,623 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:46:25,131 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:46:25,140 INFO  [Test] *************************************************************************** 
+2020-10-13 13:46:25,141 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 13:46:25,142 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 13:46:25,144 INFO  [Test] [Step 2,3,4]: Login the system 
+2020-10-13 13:46:25,283 INFO  [Test]    Entered username: duy 
+2020-10-13 13:46:25,375 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:46:26,931 INFO  [Test] Clicked Login button 
+2020-10-13 13:46:26,931 INFO  [Test] [Step 5]: Select Content > Article Manager 
+2020-10-13 13:46:28,327 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:46:28,327 INFO  [Test] [Step 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 13:46:28,517 INFO  [Test] Waited for element! 
+2020-10-13 13:46:34,616 INFO  [Test] Clicked the New button 
+2020-10-13 13:46:34,617 INFO  [Test] [Step 7,8,9,10]: Create a new article 
+2020-10-13 13:46:34,805 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 13:46:34,992 INFO  [Test] Click the Save and Close Button 
+2020-10-13 13:46:34,993 INFO  [Test] Verify Point: 
+2020-10-13 13:53:32,708 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:53:41,141 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:53:41,146 INFO  [Test] *************************************************************************** 
+2020-10-13 13:53:41,146 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 13:53:41,147 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 13:53:41,147 INFO  [Test] [Step 2,3,4]: Login the system 
+2020-10-13 13:53:41,274 INFO  [Test]    Entered username: duy 
+2020-10-13 13:53:41,370 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:53:43,021 INFO  [Test]    Clicked Login button 
+2020-10-13 13:53:43,022 INFO  [Test] [Step 5]: Select Content > Article Manager 
+2020-10-13 13:53:44,425 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:53:44,425 INFO  [Test] [Step 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 13:53:44,623 INFO  [Test] Waited for element! 
+2020-10-13 13:53:53,529 INFO  [Test] Clicked the New button 
+2020-10-13 13:53:53,529 INFO  [Test] [Step 7,8,9,10]: Create a new article 
+2020-10-13 13:53:53,714 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 13:53:53,898 INFO  [Test] Click the Save and Close Button 
+2020-10-13 13:53:53,898 INFO  [Test] Verify Point: 
+2020-10-13 13:54:04,163 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 13:54:23,657 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:54:32,018 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:54:32,021 INFO  [Test] *************************************************************************** 
+2020-10-13 13:54:32,021 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 13:54:32,022 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 13:54:32,022 INFO  [Test] [Step 2,3,4]: Login the system 
+2020-10-13 13:54:32,211 INFO  [Test]    Entered username: duy 
+2020-10-13 13:54:32,302 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:54:33,895 INFO  [Test]    Clicked Login button 
+2020-10-13 13:54:33,896 INFO  [Test] [Step 5]: Select Content > Article Manager 
+2020-10-13 13:54:33,964 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:54:33,964 INFO  [Test] [Step 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 13:54:44,452 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 13:54:52,145 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 13:55:02,164 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 13:55:02,168 INFO  [Test] *************************************************************************** 
+2020-10-13 13:55:02,168 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 13:55:02,169 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 13:55:02,169 INFO  [Test] [Step 2,3,4]: Login the system 
+2020-10-13 13:55:02,371 INFO  [Test]    Entered username: duy 
+2020-10-13 13:55:02,469 INFO  [Test]    Entered password: duy123 
+2020-10-13 13:55:06,278 INFO  [Test]    Clicked Login button 
+2020-10-13 13:55:06,278 INFO  [Test] [Step 5]: Select Content > Article Manager 
+2020-10-13 13:55:09,794 INFO  [Test] Clicked button Article Manager 
+2020-10-13 13:55:09,794 INFO  [Test] [Step 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 13:55:09,959 INFO  [Test] Waited for element! 
+2020-10-13 13:55:18,151 INFO  [Test] Clicked the New button 
+2020-10-13 13:55:18,152 INFO  [Test] [Step 7,8,9,10]: Create a new article 
+2020-10-13 13:55:18,204 INFO  [Test] Waited for element! 
+2020-10-13 13:55:18,416 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 13:55:18,519 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 13:55:20,205 INFO  [Test] Click the Save and Close Button 
+2020-10-13 13:55:20,206 INFO  [Test] Verify Point: 
+2020-10-13 13:55:20,437 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:11:32,745 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:11:41,151 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:11:41,155 INFO  [Test] *************************************************************************** 
+2020-10-13 14:11:41,155 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:11:41,156 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:11:41,156 INFO  [Test] [Step 2,3,4]: Login the system 
+2020-10-13 14:11:41,294 INFO  [Test]    Entered username: duy 
+2020-10-13 14:11:41,385 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:11:42,969 INFO  [Test]    Clicked Login button 
+2020-10-13 14:11:42,969 INFO  [Test] [Step 5]: Select Content > Article Manager 
+2020-10-13 14:11:44,327 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:11:44,327 INFO  [Test] [Step 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:11:44,517 INFO  [Test] Waited for element! 
+2020-10-13 14:11:50,361 INFO  [Test] Clicked the New button 
+2020-10-13 14:11:50,362 INFO  [Test] [Step 7,8,9,10]: Create a new article 
+2020-10-13 14:11:50,410 INFO  [Test] Waited for element! 
+2020-10-13 14:11:50,606 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:11:50,681 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 14:11:52,229 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:11:52,229 INFO  [Test] Verify Point: 
+2020-10-13 14:11:52,312 INFO  [Test] [Step 12, 13]: Archive a recent article 
+2020-10-13 14:11:52,405 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:11:53,662 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:11:53,662 INFO  [Test] Verify Point: 
+2020-10-13 14:11:57,168 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:14:47,352 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:14:55,773 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:14:55,778 INFO  [Test] *************************************************************************** 
+2020-10-13 14:14:55,778 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:14:55,778 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:14:55,779 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:14:56,002 INFO  [Test]    Entered username: duy 
+2020-10-13 14:14:56,144 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:14:57,765 INFO  [Test]    Clicked Login button 
+2020-10-13 14:14:57,766 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:14:59,608 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:14:59,609 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:14:59,813 INFO  [Test] Waited for element! 
+2020-10-13 14:15:05,406 INFO  [Test] Clicked the New button 
+2020-10-13 14:15:05,406 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:15:05,452 INFO  [Test] Waited for element! 
+2020-10-13 14:15:05,658 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:15:05,728 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 14:15:07,522 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:15:07,580 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:15:07,580 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:15:07,664 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:15:08,962 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:15:09,000 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:15:12,523 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:19:52,401 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:20:08,359 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:20:08,365 INFO  [Test] *************************************************************************** 
+2020-10-13 14:20:08,366 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:20:08,367 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:20:08,368 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:20:08,543 INFO  [Test]    Entered username: duy 
+2020-10-13 14:20:08,634 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:20:10,494 INFO  [Test]    Clicked Login button 
+2020-10-13 14:20:10,494 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:20:11,878 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:20:11,878 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:20:12,061 INFO  [Test] Waited for element! 
+2020-10-13 14:20:17,650 INFO  [Test] Clicked the New button 
+2020-10-13 14:20:17,650 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:20:17,701 INFO  [Test] Waited for element! 
+2020-10-13 14:20:17,910 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:20:18,214 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:24:47,068 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:24:55,574 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:24:55,578 INFO  [Test] *************************************************************************** 
+2020-10-13 14:24:55,578 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:24:55,578 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:24:55,578 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:24:55,785 INFO  [Test]    Entered username: duy 
+2020-10-13 14:24:55,963 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:24:58,413 INFO  [Test]    Clicked Login button 
+2020-10-13 14:24:58,413 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:24:59,875 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:24:59,875 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:25:00,014 INFO  [Test] Waited for element! 
+2020-10-13 14:25:05,982 INFO  [Test] Clicked the New button 
+2020-10-13 14:25:05,982 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:25:06,052 INFO  [Test] Waited for element! 
+2020-10-13 14:25:06,272 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:25:16,479 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:28:04,873 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:28:13,380 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:28:13,383 INFO  [Test] *************************************************************************** 
+2020-10-13 14:28:13,384 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:28:13,384 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:28:13,384 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:28:13,519 INFO  [Test]    Entered username: duy 
+2020-10-13 14:28:13,615 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:28:15,272 INFO  [Test]    Clicked Login button 
+2020-10-13 14:28:15,272 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:28:16,657 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:28:16,657 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:28:16,831 INFO  [Test] Waited for element! 
+2020-10-13 14:28:22,947 INFO  [Test] Clicked the New button 
+2020-10-13 14:28:22,947 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:28:22,995 INFO  [Test] Waited for element! 
+2020-10-13 14:28:23,302 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:28:33,718 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:29:08,543 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:29:17,038 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:29:17,045 INFO  [Test] *************************************************************************** 
+2020-10-13 14:29:17,046 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:29:17,047 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:29:17,048 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:29:17,193 INFO  [Test]    Entered username: duy 
+2020-10-13 14:29:17,322 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:29:18,937 INFO  [Test]    Clicked Login button 
+2020-10-13 14:29:18,938 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:29:20,359 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:29:20,360 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:29:20,569 INFO  [Test] Waited for element! 
+2020-10-13 14:29:26,968 INFO  [Test] Clicked the New button 
+2020-10-13 14:29:26,968 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:29:27,022 INFO  [Test] Waited for element! 
+2020-10-13 14:29:27,280 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:29:27,583 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:30:18,885 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:30:27,325 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:30:27,330 INFO  [Test] *************************************************************************** 
+2020-10-13 14:30:27,331 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:30:27,332 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:30:27,333 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:30:27,477 INFO  [Test]    Entered username: duy 
+2020-10-13 14:30:27,564 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:30:29,180 INFO  [Test]    Clicked Login button 
+2020-10-13 14:30:29,181 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:30:30,549 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:30:30,549 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:30:30,729 INFO  [Test] Waited for element! 
+2020-10-13 14:30:36,941 INFO  [Test] Clicked the New button 
+2020-10-13 14:30:36,941 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:30:36,987 INFO  [Test] Waited for element! 
+2020-10-13 14:30:37,205 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:30:52,680 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:38:06,078 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:38:14,432 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:38:14,436 INFO  [Test] *************************************************************************** 
+2020-10-13 14:38:14,436 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:38:14,436 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:38:14,437 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:38:14,645 INFO  [Test]    Entered username: duy 
+2020-10-13 14:38:14,765 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:38:16,832 INFO  [Test]    Clicked Login button 
+2020-10-13 14:38:16,833 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:38:18,231 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:38:18,231 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:38:18,425 INFO  [Test] Waited for element! 
+2020-10-13 14:38:25,123 INFO  [Test] Clicked the New button 
+2020-10-13 14:38:25,124 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:38:25,175 INFO  [Test] Waited for element! 
+2020-10-13 14:38:25,427 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:38:25,504 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 14:38:25,708 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:39:31,414 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:39:39,939 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:39:39,946 INFO  [Test] *************************************************************************** 
+2020-10-13 14:39:39,947 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:39:39,948 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:39:39,949 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:39:40,111 INFO  [Test]    Entered username: duy 
+2020-10-13 14:39:40,196 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:39:41,727 INFO  [Test]    Clicked Login button 
+2020-10-13 14:39:41,727 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:39:43,154 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:39:43,154 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:39:43,345 INFO  [Test] Waited for element! 
+2020-10-13 14:39:49,417 INFO  [Test] Clicked the New button 
+2020-10-13 14:39:49,417 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:39:49,452 INFO  [Test] Waited for element! 
+2020-10-13 14:39:49,674 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:39:49,887 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:40:34,690 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:40:43,087 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:40:43,095 INFO  [Test] *************************************************************************** 
+2020-10-13 14:40:43,096 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:40:43,097 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:40:43,098 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:40:43,265 INFO  [Test]    Entered username: duy 
+2020-10-13 14:40:43,351 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:40:45,946 INFO  [Test]    Clicked Login button 
+2020-10-13 14:40:45,947 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:40:49,942 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:40:49,942 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:40:50,145 INFO  [Test] Waited for element! 
+2020-10-13 14:41:01,063 INFO  [Test] Clicked the New button 
+2020-10-13 14:41:01,063 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:41:01,109 INFO  [Test] Waited for element! 
+2020-10-13 14:41:01,326 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:41:01,544 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:41:59,347 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:42:07,619 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:42:07,626 INFO  [Test] *************************************************************************** 
+2020-10-13 14:42:07,626 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:42:07,629 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:42:07,630 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:42:07,791 INFO  [Test]    Entered username: duy 
+2020-10-13 14:42:07,878 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:42:09,525 INFO  [Test]    Clicked Login button 
+2020-10-13 14:42:09,526 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:42:12,133 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:42:12,133 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:42:12,334 INFO  [Test] Waited for element! 
+2020-10-13 14:42:21,239 INFO  [Test] Clicked the New button 
+2020-10-13 14:42:21,239 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:42:21,292 INFO  [Test] Waited for element! 
+2020-10-13 14:42:21,536 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:42:23,326 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:42:23,377 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:42:23,378 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:42:23,463 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:42:24,901 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:42:24,902 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:42:25,427 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:42:53,976 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:43:02,790 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:43:02,795 INFO  [Test] *************************************************************************** 
+2020-10-13 14:43:02,795 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:43:02,796 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:43:02,796 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:43:02,928 INFO  [Test]    Entered username: duy 
+2020-10-13 14:43:03,036 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:43:04,841 INFO  [Test]    Clicked Login button 
+2020-10-13 14:43:04,842 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:43:06,275 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:43:06,275 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:43:06,508 INFO  [Test] Waited for element! 
+2020-10-13 14:43:12,873 INFO  [Test] Clicked the New button 
+2020-10-13 14:43:12,874 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:43:12,941 INFO  [Test] Waited for element! 
+2020-10-13 14:43:13,227 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:43:15,027 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:43:15,086 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:43:15,087 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:43:15,186 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:43:16,505 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:43:16,505 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:43:17,132 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:44:39,267 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:44:48,240 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:44:48,244 INFO  [Test] *************************************************************************** 
+2020-10-13 14:44:48,245 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:44:48,245 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:44:48,246 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:44:48,504 INFO  [Test]    Entered username: duy 
+2020-10-13 14:44:48,768 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:44:50,451 INFO  [Test]    Clicked Login button 
+2020-10-13 14:44:50,452 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:44:51,903 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:44:51,903 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:44:52,060 INFO  [Test] Waited for element! 
+2020-10-13 14:44:58,419 INFO  [Test] Clicked the New button 
+2020-10-13 14:44:58,419 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:44:58,474 INFO  [Test] Waited for element! 
+2020-10-13 14:44:58,713 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:45:00,496 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:45:00,563 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:45:00,563 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:45:00,689 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:45:01,938 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:45:01,938 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:45:17,656 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:46:43,613 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:46:52,309 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:46:52,312 INFO  [Test] *************************************************************************** 
+2020-10-13 14:46:52,312 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:46:52,313 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:46:52,314 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:46:52,567 INFO  [Test]    Entered username: duy 
+2020-10-13 14:46:52,674 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:46:54,213 INFO  [Test]    Clicked Login button 
+2020-10-13 14:46:54,213 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:46:55,603 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:46:55,604 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:46:55,750 INFO  [Test] Waited for element! 
+2020-10-13 14:47:04,093 INFO  [Test] Clicked the New button 
+2020-10-13 14:47:04,093 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:47:04,140 INFO  [Test] Waited for element! 
+2020-10-13 14:47:04,287 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:47:04,434 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:47:18,708 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:47:27,085 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:47:27,088 INFO  [Test] *************************************************************************** 
+2020-10-13 14:47:27,089 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:47:27,089 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:47:27,089 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:47:27,224 INFO  [Test]    Entered username: duy 
+2020-10-13 14:47:27,322 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:47:28,955 INFO  [Test]    Clicked Login button 
+2020-10-13 14:47:28,955 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:47:30,307 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:47:30,307 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:47:30,483 INFO  [Test] Waited for element! 
+2020-10-13 14:47:36,889 INFO  [Test] Clicked the New button 
+2020-10-13 14:47:36,890 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:47:36,940 INFO  [Test] Waited for element! 
+2020-10-13 14:47:37,195 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:47:38,834 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:47:38,893 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:47:38,893 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:47:38,978 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:47:40,194 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:47:40,195 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:47:40,510 INFO  [Test]    xpath = //select[@id='filter_published']/option[contains(.,'Archived')] 
+2020-10-13 14:47:49,780 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:49:10,159 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:49:19,014 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:49:19,018 INFO  [Test] *************************************************************************** 
+2020-10-13 14:49:19,018 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:49:19,019 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:49:19,019 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:49:19,224 INFO  [Test]    Entered username: duy 
+2020-10-13 14:49:19,395 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:49:20,988 INFO  [Test]    Clicked Login button 
+2020-10-13 14:49:20,989 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:49:22,625 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:49:22,626 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:49:22,847 INFO  [Test] Waited for element! 
+2020-10-13 14:49:29,838 INFO  [Test] Clicked the New button 
+2020-10-13 14:49:29,839 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:49:29,889 INFO  [Test] Waited for element! 
+2020-10-13 14:49:30,139 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:49:31,899 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:49:31,960 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:49:31,960 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:49:32,052 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:49:33,343 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:49:33,343 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:49:33,636 INFO  [Test]    xpath = //option[contains(.,'Archived')] 
+2020-10-13 14:49:48,984 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:50:54,619 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:51:03,419 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:51:03,423 INFO  [Test] *************************************************************************** 
+2020-10-13 14:51:03,424 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:51:03,424 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:51:03,424 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:51:03,653 INFO  [Test]    Entered username: duy 
+2020-10-13 14:51:03,838 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:51:05,459 INFO  [Test]    Clicked Login button 
+2020-10-13 14:51:05,459 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:51:07,723 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:51:07,724 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:51:07,893 INFO  [Test] Waited for element! 
+2020-10-13 14:51:14,072 INFO  [Test] Clicked the New button 
+2020-10-13 14:51:14,073 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:51:14,122 INFO  [Test] Waited for element! 
+2020-10-13 14:51:14,386 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:51:16,274 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:51:16,338 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:51:16,338 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:51:16,417 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:51:17,700 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:51:17,701 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:51:17,972 INFO  [Test]    xpath = //option[contains(.,'Archived')] 
+2020-10-13 14:51:33,308 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:52:47,597 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:52:55,976 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:52:55,983 INFO  [Test] *************************************************************************** 
+2020-10-13 14:52:55,984 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:52:55,985 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:52:55,986 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:52:56,114 INFO  [Test]    Entered username: duy 
+2020-10-13 14:52:56,198 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:52:57,848 INFO  [Test]    Clicked Login button 
+2020-10-13 14:52:57,849 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:52:59,202 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:52:59,203 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:52:59,389 INFO  [Test] Waited for element! 
+2020-10-13 14:53:05,978 INFO  [Test] Clicked the New button 
+2020-10-13 14:53:05,979 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:53:06,026 INFO  [Test] Waited for element! 
+2020-10-13 14:53:06,256 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:53:08,029 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:53:08,089 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:53:08,089 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:53:08,184 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:53:09,528 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:53:09,529 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:53:09,765 INFO  [Test] Waited to click element! 
+2020-10-13 14:53:09,913 INFO  [Test]    xpath =//option[contains(.,'Archived')] 
+2020-10-13 14:53:25,456 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:55:45,664 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:55:54,121 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:55:54,128 INFO  [Test] *************************************************************************** 
+2020-10-13 14:55:54,129 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:55:54,130 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:55:54,131 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:55:54,351 INFO  [Test]    Entered username: duy 
+2020-10-13 14:55:54,435 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:55:55,989 INFO  [Test]    Clicked Login button 
+2020-10-13 14:55:55,989 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:55:57,408 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:55:57,409 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:55:57,608 INFO  [Test] Waited for element! 
+2020-10-13 14:56:03,565 INFO  [Test] Clicked the New button 
+2020-10-13 14:56:03,566 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:56:03,613 INFO  [Test] Waited for element! 
+2020-10-13 14:56:03,822 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:56:05,595 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:56:05,657 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:56:05,657 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:56:05,752 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:56:07,054 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:56:07,054 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:56:07,239 INFO  [Test] Waited to click element! 
+2020-10-13 14:56:07,388 INFO  [Test]    xpath =//option[contains(.,'Archived')] 
+2020-10-13 14:56:22,966 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:57:01,177 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:57:11,693 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:57:11,696 INFO  [Test] *************************************************************************** 
+2020-10-13 14:57:11,696 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:57:11,696 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:57:11,697 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:57:11,815 INFO  [Test]    Entered username: duy 
+2020-10-13 14:57:11,900 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:57:13,472 INFO  [Test]    Clicked Login button 
+2020-10-13 14:57:13,473 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:57:15,084 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:57:15,085 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:57:15,392 INFO  [Test] Waited for element! 
+2020-10-13 14:57:24,513 INFO  [Test] Clicked the New button 
+2020-10-13 14:57:24,514 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:57:24,554 INFO  [Test] Waited for element! 
+2020-10-13 14:57:24,806 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:57:26,658 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:57:26,713 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:57:26,713 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:57:26,793 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:57:28,193 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:57:28,193 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:57:28,428 INFO  [Test] Waited to click element! 
+2020-10-13 14:57:28,517 INFO  [Test]    xpath =//option[contains(.,'Archived')] 
+2020-10-13 14:57:28,760 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:58:14,248 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:58:26,683 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:58:26,687 INFO  [Test] *************************************************************************** 
+2020-10-13 14:58:26,687 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:58:26,688 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:58:26,688 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:58:26,871 INFO  [Test]    Entered username: duy 
+2020-10-13 14:58:26,978 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:58:28,847 INFO  [Test]    Clicked Login button 
+2020-10-13 14:58:28,847 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:58:31,364 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:58:31,365 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:58:31,515 INFO  [Test] Waited for element! 
+2020-10-13 14:58:40,437 INFO  [Test] Clicked the New button 
+2020-10-13 14:58:40,437 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 14:58:40,487 INFO  [Test] Waited for element! 
+2020-10-13 14:58:40,715 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 14:58:42,507 INFO  [Test] Click the Save and Close Button 
+2020-10-13 14:58:42,557 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 14:58:42,558 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 14:58:42,644 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 14:58:44,085 INFO  [Test] Clicked the Archive button 
+2020-10-13 14:58:44,085 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 14:58:44,133 INFO  [Test] Waited for element! 
+2020-10-13 14:58:44,335 INFO  [Test] Waited to click element! 
+2020-10-13 14:58:44,490 INFO  [Test]    xpath =//option[contains(.,'Archived')] 
+2020-10-13 14:58:44,822 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 14:59:40,291 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 14:59:49,138 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 14:59:49,143 INFO  [Test] *************************************************************************** 
+2020-10-13 14:59:49,143 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 14:59:49,143 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 14:59:49,143 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 14:59:49,292 INFO  [Test]    Entered username: duy 
+2020-10-13 14:59:49,377 INFO  [Test]    Entered password: duy123 
+2020-10-13 14:59:51,048 INFO  [Test]    Clicked Login button 
+2020-10-13 14:59:51,048 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 14:59:52,589 INFO  [Test] Clicked button Article Manager 
+2020-10-13 14:59:52,590 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 14:59:52,786 INFO  [Test] Waited for element! 
+2020-10-13 15:00:01,488 INFO  [Test] Clicked the New button 
+2020-10-13 15:00:01,488 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:00:01,539 INFO  [Test] Waited for element! 
+2020-10-13 15:00:01,781 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:00:03,465 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:00:03,526 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:00:03,526 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 15:00:03,641 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:00:04,927 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:00:04,927 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:00:04,978 INFO  [Test] Waited for element! 
+2020-10-13 15:00:05,151 INFO  [Test] Waited to click element! 
+2020-10-13 15:00:05,300 INFO  [Test]    xpath =//option[contains(.,'Archived')] 
+2020-10-13 15:00:06,597 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:01:34,815 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:01:57,807 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:01:57,812 INFO  [Test] *************************************************************************** 
+2020-10-13 15:01:57,813 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 15:01:57,813 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 15:01:57,813 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 15:01:57,997 INFO  [Test]    Entered username: duy 
+2020-10-13 15:01:58,097 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:01:59,999 INFO  [Test]    Clicked Login button 
+2020-10-13 15:01:59,999 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 15:02:01,398 INFO  [Test] Clicked button Article Manager 
+2020-10-13 15:02:01,398 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 15:02:01,574 INFO  [Test] Waited for element! 
+2020-10-13 15:02:09,717 INFO  [Test] Clicked the New button 
+2020-10-13 15:02:09,718 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:02:09,757 INFO  [Test] Waited for element! 
+2020-10-13 15:02:09,996 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:02:12,066 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:02:12,118 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:02:12,118 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 15:02:12,199 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:02:13,742 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:02:13,742 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:02:13,789 INFO  [Test] Waited for element! 
+2020-10-13 15:02:14,024 INFO  [Test] Waited to click element! 
+2020-10-13 15:02:14,145 INFO  [Test]    xpath =//option[contains(.,'Archived')] 
+2020-10-13 15:02:15,535 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:08:20,057 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:08:28,562 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:08:28,566 INFO  [Test] *************************************************************************** 
+2020-10-13 15:08:28,566 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 15:08:28,567 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 15:08:28,567 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 15:08:28,686 INFO  [Test]    Entered username: duy 
+2020-10-13 15:08:28,768 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:08:30,336 INFO  [Test]    Clicked Login button 
+2020-10-13 15:08:30,337 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 15:08:31,945 INFO  [Test] Clicked button Article Manager 
+2020-10-13 15:08:31,945 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 15:08:32,119 INFO  [Test] Waited for element! 
+2020-10-13 15:08:41,510 INFO  [Test] Clicked the New button 
+2020-10-13 15:08:41,510 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:08:41,557 INFO  [Test] Waited for element! 
+2020-10-13 15:08:41,787 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:08:43,706 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:08:43,755 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:08:43,755 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 15:08:43,834 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:08:45,262 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:08:45,262 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:08:45,322 INFO  [Test] Waited for element! 
+2020-10-13 15:08:45,510 INFO  [Test] Waited to click element! 
+2020-10-13 15:08:45,645 INFO  [Test]    xpath =//ul[@class='chzn-results']/li[contains(.,'Archived')] 
+2020-10-13 15:08:48,250 INFO  [Test]    Selected: Archived 
+2020-10-13 15:08:48,435 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:14:12,134 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:14:20,840 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:14:20,843 INFO  [Test] *************************************************************************** 
+2020-10-13 15:14:20,844 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 15:14:20,845 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 15:14:20,845 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 15:14:21,036 INFO  [Test]    Entered username: duy 
+2020-10-13 15:14:21,169 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:14:22,777 INFO  [Test]    Clicked Login button 
+2020-10-13 15:14:22,777 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 15:14:24,165 INFO  [Test] Clicked button Article Manager 
+2020-10-13 15:14:24,165 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 15:14:31,963 INFO  [Test] Clicked the New button 
+2020-10-13 15:14:31,963 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:14:32,240 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:14:33,918 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:14:33,978 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:14:33,979 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 15:14:34,056 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:14:35,820 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:14:35,821 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:14:36,172 INFO  [Test] Waited for element! 
+2020-10-13 15:14:51,766 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:16:32,771 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:16:42,981 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:16:42,987 INFO  [Test] *************************************************************************** 
+2020-10-13 15:16:42,988 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 15:16:42,988 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 15:16:42,989 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 15:16:43,247 INFO  [Test]    Entered username: duy 
+2020-10-13 15:16:43,419 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:16:45,028 INFO  [Test]    Clicked Login button 
+2020-10-13 15:16:45,029 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 15:16:46,428 INFO  [Test] Clicked button Article Manager 
+2020-10-13 15:16:46,428 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 15:16:55,521 INFO  [Test] Clicked the New button 
+2020-10-13 15:16:55,522 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:16:55,816 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:16:57,448 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:16:57,514 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:16:57,514 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 15:16:57,595 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:17:00,161 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:17:00,162 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:17:00,481 INFO  [Test] Waited for element! 
+2020-10-13 15:17:00,688 INFO  [Test] Waited for element! 
+2020-10-13 15:17:01,930 INFO  [Test]    Selected: Archived 
+2020-10-13 15:17:01,968 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 15:17:01,968 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 15:17:02,185 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:28:09,997 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:28:18,417 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:28:18,421 INFO  [Test] *************************************************************************** 
+2020-10-13 15:28:18,422 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 15:28:18,423 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 15:28:18,423 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 15:28:18,620 INFO  [Test]    Entered username: duy 
+2020-10-13 15:28:18,728 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:28:20,263 INFO  [Test]    Clicked Login button 
+2020-10-13 15:28:20,263 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 15:28:21,690 INFO  [Test] Clicked button Article Manager 
+2020-10-13 15:28:21,690 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 15:28:28,150 INFO  [Test] Clicked the New button 
+2020-10-13 15:28:28,150 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:28:28,420 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:28:28,502 INFO  [Test] Waited for element! 
+2020-10-13 15:28:28,687 INFO  [Test] Waited for element! 
+2020-10-13 15:28:28,803 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 15:28:30,541 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:28:30,599 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:28:30,599 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 15:28:30,675 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:28:31,932 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:28:31,933 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:28:32,248 INFO  [Test] Waited for element! 
+2020-10-13 15:28:32,423 INFO  [Test] Waited for element! 
+2020-10-13 15:28:33,196 INFO  [Test]    Selected: Archived 
+2020-10-13 15:28:33,233 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 15:28:33,233 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 15:28:33,450 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:38:10,891 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:38:21,596 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:38:21,599 INFO  [Test] *************************************************************************** 
+2020-10-13 15:38:21,600 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 15:38:21,600 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 15:38:21,600 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 15:38:21,828 INFO  [Test]    Entered username: duy 
+2020-10-13 15:38:21,929 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:38:23,628 INFO  [Test]    Clicked Login button 
+2020-10-13 15:38:23,628 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 15:38:24,997 INFO  [Test] Clicked button Article Manager 
+2020-10-13 15:38:24,998 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 15:38:31,772 INFO  [Test] Clicked the New button 
+2020-10-13 15:38:31,772 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:38:32,045 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:38:32,130 INFO  [Test] Waited for element! 
+2020-10-13 15:38:32,312 INFO  [Test] Waited for element! 
+2020-10-13 15:38:32,413 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 15:38:34,174 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:38:34,230 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:38:34,230 INFO  [Test] [STEP 12, 13]: Archive a recent article 
+2020-10-13 15:38:34,309 INFO  [Test] Waited for element! 
+2020-10-13 15:38:34,370 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:38:35,664 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:38:35,664 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:38:35,952 INFO  [Test] Waited for element! 
+2020-10-13 15:38:36,141 INFO  [Test] Waited for element! 
+2020-10-13 15:38:37,053 INFO  [Test]    Selected: Archived 
+2020-10-13 15:38:37,097 INFO  [Test] Verify Point pass: Correct Article present in the Archive 
+2020-10-13 15:38:37,097 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 15:38:37,097 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 15:38:37,262 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:40:48,937 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:40:58,219 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:40:58,226 INFO  [Test] *************************************************************************** 
+2020-10-13 15:40:58,227 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 15:40:58,227 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 15:40:58,227 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 15:40:58,460 INFO  [Test]    Entered username: duy 
+2020-10-13 15:40:58,560 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:41:00,146 INFO  [Test]    Clicked Login button 
+2020-10-13 15:41:00,146 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 15:41:01,518 INFO  [Test] Clicked button Article Manager 
+2020-10-13 15:41:01,519 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 15:41:08,648 INFO  [Test] Clicked the New button 
+2020-10-13 15:41:08,648 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:41:08,875 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:41:08,950 INFO  [Test] Waited for element! 
+2020-10-13 15:41:09,107 INFO  [Test] Waited for element! 
+2020-10-13 15:41:09,174 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 15:41:10,995 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:41:11,037 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:41:11,037 INFO  [Test] [STEP 12, 13]: Archive a newly created article 
+2020-10-13 15:41:11,105 INFO  [Test] Waited for element! 
+2020-10-13 15:41:11,153 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:41:11,202 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:41:11,203 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:41:26,603 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:41:41,040 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:41:50,129 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:41:50,134 INFO  [Test] *************************************************************************** 
+2020-10-13 15:41:50,135 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 15:41:50,135 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 15:41:50,136 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 15:41:50,404 INFO  [Test]    Entered username: duy 
+2020-10-13 15:41:50,485 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:41:52,264 INFO  [Test]    Clicked Login button 
+2020-10-13 15:41:52,265 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 15:41:52,381 INFO  [Test] Clicked button Article Manager 
+2020-10-13 15:41:52,381 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 15:42:12,294 INFO  [Test] Clicked the New button 
+2020-10-13 15:42:12,294 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:42:12,553 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:42:12,636 INFO  [Test] Waited for element! 
+2020-10-13 15:42:12,820 INFO  [Test] Waited for element! 
+2020-10-13 15:42:12,912 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 15:42:14,559 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:42:14,615 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:42:14,615 INFO  [Test] [STEP 12, 13]: Archive a newly created article 
+2020-10-13 15:42:14,686 INFO  [Test] Waited for element! 
+2020-10-13 15:42:14,760 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:42:15,996 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:42:15,997 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:42:16,284 INFO  [Test] Waited for element! 
+2020-10-13 15:42:16,467 INFO  [Test] Waited for element! 
+2020-10-13 15:42:17,222 INFO  [Test]    Selected: Archived 
+2020-10-13 15:42:17,270 INFO  [Test] Verify Point pass: Correct Article present in the Archive 
+2020-10-13 15:42:17,270 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 15:42:17,271 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 15:42:17,455 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:45:42,740 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:46:30,355 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:46:41,450 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:46:41,685 INFO  [Test]    Entered username: duy 
+2020-10-13 15:46:41,792 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:46:43,433 INFO  [Test]    Clicked Login button 
+2020-10-13 15:46:43,435 INFO  [Test] *************************************************************************** 
+2020-10-13 15:46:43,436 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 15:46:43,436 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 15:46:43,437 INFO  [Test] [STEP 2,3,4]: Login the system 
+2020-10-13 15:46:43,437 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 15:46:43,591 INFO  [Test] Waited for element! 
+2020-10-13 15:46:45,593 INFO  [Test] Clicked button Article Manager 
+2020-10-13 15:46:45,594 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 15:47:05,049 INFO  [Test] Clicked the New button 
+2020-10-13 15:47:05,049 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 15:47:05,340 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 15:47:05,440 INFO  [Test] Waited for element! 
+2020-10-13 15:47:05,623 INFO  [Test] Waited for element! 
+2020-10-13 15:47:05,692 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 15:47:07,719 INFO  [Test] Click the Save and Close Button 
+2020-10-13 15:47:07,769 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 15:47:07,769 INFO  [Test] [STEP 12, 13]: Archive a newly created article 
+2020-10-13 15:47:07,845 INFO  [Test] Waited for element! 
+2020-10-13 15:47:07,907 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 15:47:09,380 INFO  [Test] Clicked the Archive button 
+2020-10-13 15:47:09,380 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 15:47:09,637 INFO  [Test] Waited for element! 
+2020-10-13 15:47:09,845 INFO  [Test] Waited for element! 
+2020-10-13 15:47:10,803 INFO  [Test]    Selected: Archived 
+2020-10-13 15:47:10,839 INFO  [Test] Verify Point pass: Correct Article present in the Archive 
+2020-10-13 15:47:10,840 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 15:47:10,840 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 15:47:10,996 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 15:47:11,048 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 15:47:22,640 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 15:47:22,901 INFO  [Test]    Entered username: duy 
+2020-10-13 15:47:23,006 INFO  [Test]    Entered password: duy123 
+2020-10-13 15:47:50,745 INFO  [Test]    Clicked Login button 
+2020-10-13 15:47:50,894 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:07:54,980 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:08:07,031 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:08:07,180 INFO  [Test]    Entered username: duy 
+2020-10-13 16:08:07,272 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:08:09,163 INFO  [Test]    Clicked Login button 
+2020-10-13 16:08:09,355 INFO  [Test] Waited for element! 
+2020-10-13 16:08:14,167 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:08:14,261 INFO  [Test] Waited for element! 
+2020-10-13 16:08:14,440 INFO  [Test] Waited for element! 
+2020-10-13 16:08:15,426 INFO  [Test]    Selected: 5 
+2020-10-13 16:08:15,606 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:16:05,956 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:16:14,452 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:16:14,666 INFO  [Test]    Entered username: duy 
+2020-10-13 16:16:14,784 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:16:17,167 INFO  [Test]    Clicked Login button 
+2020-10-13 16:16:17,365 INFO  [Test] Waited for element! 
+2020-10-13 16:16:18,688 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:16:18,769 INFO  [Test] Waited for element! 
+2020-10-13 16:16:34,002 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:16:59,546 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:17:07,937 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:17:08,110 INFO  [Test]    Entered username: duy 
+2020-10-13 16:17:08,215 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:17:09,804 INFO  [Test]    Clicked Login button 
+2020-10-13 16:17:09,806 INFO  [Test] *************************************************************************** 
+2020-10-13 16:17:09,807 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 16:17:09,807 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 16:17:09,807 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 16:17:10,021 INFO  [Test] Waited for element! 
+2020-10-13 16:17:11,379 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:17:11,380 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 16:17:17,301 INFO  [Test] Clicked the New button 
+2020-10-13 16:17:17,302 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 16:17:17,561 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 16:17:17,643 INFO  [Test] Waited for element! 
+2020-10-13 16:17:17,825 INFO  [Test] Waited for element! 
+2020-10-13 16:17:17,904 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 16:17:19,560 INFO  [Test] Click the Save and Close Button 
+2020-10-13 16:17:19,611 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 16:17:19,611 INFO  [Test] [STEP 12, 13]: Archive a newly created article 
+2020-10-13 16:17:19,681 INFO  [Test] Waited for element! 
+2020-10-13 16:17:19,761 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 16:17:20,996 INFO  [Test] Clicked the Archive button 
+2020-10-13 16:17:20,997 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 16:17:20,997 INFO  [Test] [STEP 15]: Select 'Archived' item of 'Status' dropdown list 
+2020-10-13 16:17:21,082 INFO  [Test] Waited for element! 
+2020-10-13 16:17:21,358 INFO  [Test] Waited for element! 
+2020-10-13 16:17:36,863 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:17:36,895 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:17:44,841 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:17:45,116 INFO  [Test]    Entered username: duy 
+2020-10-13 16:17:45,245 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:17:49,635 INFO  [Test]    Clicked Login button 
+2020-10-13 16:17:49,747 INFO  [Test] Waited for element! 
+2020-10-13 16:17:54,563 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:17:54,678 INFO  [Test] Waited for element! 
+2020-10-13 16:17:54,880 INFO  [Test] Waited for element! 
+2020-10-13 16:17:57,229 INFO  [Test]    Selected list limit: 5 
+2020-10-13 16:17:57,397 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:19:07,382 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:19:16,182 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:19:16,305 INFO  [Test]    Entered username: duy 
+2020-10-13 16:19:16,398 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:19:17,952 INFO  [Test]    Clicked Login button 
+2020-10-13 16:19:17,956 INFO  [Test] *************************************************************************** 
+2020-10-13 16:19:17,957 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 16:19:17,957 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 16:19:17,957 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 16:19:18,162 INFO  [Test] Waited for element! 
+2020-10-13 16:19:19,545 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:19:19,545 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 16:19:25,729 INFO  [Test] Clicked the New button 
+2020-10-13 16:19:25,730 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 16:19:25,989 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 16:19:26,071 INFO  [Test] Waited for element! 
+2020-10-13 16:19:26,252 INFO  [Test] Waited for element! 
+2020-10-13 16:19:26,323 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 16:19:27,918 INFO  [Test] Click the Save and Close Button 
+2020-10-13 16:19:27,979 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 16:19:27,979 INFO  [Test] [STEP 12, 13]: Archive a newly created article 
+2020-10-13 16:19:28,048 INFO  [Test] Waited for element! 
+2020-10-13 16:19:28,108 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 16:19:29,366 INFO  [Test] Clicked the Archive button 
+2020-10-13 16:19:29,366 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 16:19:29,367 INFO  [Test] [STEP 15]: Select 'Archived' item of 'Status' dropdown list 
+2020-10-13 16:19:29,446 INFO  [Test] Waited for element! 
+2020-10-13 16:19:29,859 INFO  [Test] Waited for element! 
+2020-10-13 16:19:31,266 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:19:31,313 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:19:39,217 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:19:39,346 INFO  [Test]    Entered username: duy 
+2020-10-13 16:19:39,445 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:19:41,082 INFO  [Test]    Clicked Login button 
+2020-10-13 16:19:41,166 INFO  [Test] Waited for element! 
+2020-10-13 16:19:42,579 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:19:42,706 INFO  [Test] Waited for element! 
+2020-10-13 16:19:42,925 INFO  [Test] Waited for element! 
+2020-10-13 16:19:43,790 INFO  [Test]    Selected list limit: 5 
+2020-10-13 16:19:43,812 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 16:19:43,812 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 16:19:43,937 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:22:05,446 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:22:13,920 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:22:14,133 INFO  [Test]    Entered username: duy 
+2020-10-13 16:22:14,217 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:22:15,880 INFO  [Test]    Clicked Login button 
+2020-10-13 16:22:15,883 INFO  [Test] *************************************************************************** 
+2020-10-13 16:22:15,883 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 16:22:15,883 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 16:22:15,884 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 16:22:16,037 INFO  [Test] Waited for element! 
+2020-10-13 16:22:17,443 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:22:17,444 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 16:22:23,749 INFO  [Test] Clicked the New button 
+2020-10-13 16:22:23,749 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 16:22:24,006 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 16:22:24,089 INFO  [Test] Waited for element! 
+2020-10-13 16:22:24,271 INFO  [Test] Waited for element! 
+2020-10-13 16:22:24,351 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 16:22:26,080 INFO  [Test] Click the Save and Close Button 
+2020-10-13 16:22:26,138 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 16:22:26,138 INFO  [Test] [STEP 12, 13]: Archive a newly created article 
+2020-10-13 16:22:26,215 INFO  [Test] Waited for element! 
+2020-10-13 16:22:26,296 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 16:22:27,565 INFO  [Test] Clicked the Archive button 
+2020-10-13 16:22:27,566 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 16:22:27,566 INFO  [Test] [STEP 15]: Select 'Archived' item of 'Status' dropdown list 
+2020-10-13 16:22:27,651 INFO  [Test] Waited for element! 
+2020-10-13 16:22:27,972 INFO  [Test] Waited for element! 
+2020-10-13 16:22:43,502 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:45:27,756 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:45:37,828 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:45:38,066 INFO  [Test]    Entered username: duy 
+2020-10-13 16:45:38,214 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:45:39,753 INFO  [Test]    Clicked Login button 
+2020-10-13 16:45:39,913 INFO  [Test] Waited for element! 
+2020-10-13 16:45:41,305 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:45:41,441 INFO  [Test] Waited for element! 
+2020-10-13 16:45:41,679 INFO  [Test] Waited for element! 
+2020-10-13 16:45:42,560 INFO  [Test]    Selected list limit: 5 
+2020-10-13 16:45:42,688 INFO  [Test] Waited for element! 
+2020-10-13 16:45:43,577 INFO  [Test] Waited for element! 
+2020-10-13 16:45:43,752 INFO  [Test] Waited for element! 
+2020-10-13 16:45:45,440 INFO  [Test]    Selected list limit: All 
+2020-10-13 16:45:45,662 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:46:22,112 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:46:30,579 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:46:30,759 INFO  [Test]    Entered username: duy 
+2020-10-13 16:46:30,840 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:46:32,458 INFO  [Test]    Clicked Login button 
+2020-10-13 16:46:32,667 INFO  [Test] Waited for element! 
+2020-10-13 16:46:32,726 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:46:47,998 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:47:08,660 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:47:16,912 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:47:17,145 INFO  [Test]    Entered username: duy 
+2020-10-13 16:47:17,240 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:47:18,931 INFO  [Test]    Clicked Login button 
+2020-10-13 16:47:19,122 INFO  [Test] Waited for element! 
+2020-10-13 16:47:20,471 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:47:20,562 INFO  [Test] Waited for element! 
+2020-10-13 16:47:20,737 INFO  [Test] Waited for element! 
+2020-10-13 16:47:21,544 INFO  [Test]    Selected list limit: 5 
+2020-10-13 16:47:21,648 INFO  [Test] Waited for element! 
+2020-10-13 16:47:22,490 INFO  [Test] Waited for element! 
+2020-10-13 16:47:22,663 INFO  [Test] Waited for element! 
+2020-10-13 16:47:24,355 INFO  [Test]    Selected list limit: All 
+2020-10-13 16:47:24,559 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:49:27,593 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:49:36,012 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:49:36,224 INFO  [Test]    Entered username: duy 
+2020-10-13 16:49:36,325 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:49:37,933 INFO  [Test]    Clicked Login button 
+2020-10-13 16:49:38,143 INFO  [Test] Waited for element! 
+2020-10-13 16:49:39,569 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:49:39,694 INFO  [Test] Waited for element! 
+2020-10-13 16:49:39,897 INFO  [Test] Waited for element! 
+2020-10-13 16:49:40,748 INFO  [Test]    Selected list limit: 5 
+2020-10-13 16:49:40,877 INFO  [Test] Waited for element! 
+2020-10-13 16:49:41,798 INFO  [Test] Waited for element! 
+2020-10-13 16:49:42,001 INFO  [Test] Waited for element! 
+2020-10-13 16:49:43,897 INFO  [Test]    Selected list limit: All 
+2020-10-13 16:49:44,103 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:51:41,137 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:51:49,366 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:51:49,553 INFO  [Test]    Entered username: duy 
+2020-10-13 16:51:49,664 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:51:51,261 INFO  [Test]    Clicked Login button 
+2020-10-13 16:51:51,474 INFO  [Test] Waited for element! 
+2020-10-13 16:51:52,900 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:51:53,014 INFO  [Test] Waited for element! 
+2020-10-13 16:51:53,215 INFO  [Test] Waited for element! 
+2020-10-13 16:51:53,985 INFO  [Test]    Selected list limit: 5 
+2020-10-13 16:51:54,248 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:52:46,896 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:52:55,235 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:52:55,389 INFO  [Test]    Entered username: duy 
+2020-10-13 16:52:55,483 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:52:57,082 INFO  [Test]    Clicked Login button 
+2020-10-13 16:52:57,249 INFO  [Test] Waited for element! 
+2020-10-13 16:53:00,567 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:53:00,671 INFO  [Test] Waited for element! 
+2020-10-13 16:53:00,861 INFO  [Test] Waited for element! 
+2020-10-13 16:53:02,079 INFO  [Test]    Selected list limit: 5 
+2020-10-13 16:53:02,189 INFO  [Test] Waited for element! 
+2020-10-13 16:53:05,176 INFO  [Test] Waited for element! 
+2020-10-13 16:53:05,325 INFO  [Test] Waited for element! 
+2020-10-13 16:53:09,073 INFO  [Test]    Selected list limit: All 
+2020-10-13 16:53:09,107 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 16:53:09,107 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 16:53:09,286 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 16:57:16,839 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 16:57:25,191 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 16:57:25,404 INFO  [Test]    Entered username: duy 
+2020-10-13 16:57:25,505 INFO  [Test]    Entered password: duy123 
+2020-10-13 16:57:27,087 INFO  [Test]    Clicked Login button 
+2020-10-13 16:57:28,664 INFO  [Test] Clicked button Article Manager 
+2020-10-13 16:57:29,733 INFO  [Test]    Selected list limit: 5 
+2020-10-13 16:57:32,647 INFO  [Test]    Selected list limit: All 
+2020-10-13 16:57:32,682 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 16:57:32,683 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 16:57:32,853 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 17:01:53,954 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 17:02:07,014 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 17:02:07,250 INFO  [Test]    Entered username: duy 
+2020-10-13 17:02:07,427 INFO  [Test]    Entered password: duy123 
+2020-10-13 17:02:09,364 INFO  [Test]    Clicked Login button 
+2020-10-13 17:02:12,144 INFO  [Test] Clicked button Article Manager 
+2020-10-13 17:02:13,643 INFO  [Test]    Selected list limit: 5 
+2020-10-13 17:02:17,001 INFO  [Test]    Selected list limit: All 
+2020-10-13 17:02:32,155 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 17:02:55,619 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 17:03:04,063 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 17:03:04,287 INFO  [Test]    Entered username: duy 
+2020-10-13 17:03:04,397 INFO  [Test]    Entered password: duy123 
+2020-10-13 17:03:06,074 INFO  [Test]    Clicked Login button 
+2020-10-13 17:03:06,076 INFO  [Test] *************************************************************************** 
+2020-10-13 17:03:06,077 INFO  [Test] ------------------------------ Test case TC_JOOMLA_ARTICLE_005 ----------------------------- 
+2020-10-13 17:03:06,077 INFO  [Test] Description: Verify user can move an article to the archive 
+2020-10-13 17:03:06,077 INFO  [Test] [STEP 5]: Select Content > Article Manager 
+2020-10-13 17:03:07,677 INFO  [Test] Clicked button Article Manager 
+2020-10-13 17:03:07,677 INFO  [Test] [STEP 6]: Click on 'New' icon of the top right toolbar 
+2020-10-13 17:03:13,790 INFO  [Test] Clicked the New button 
+2020-10-13 17:03:13,790 INFO  [Test] [STEP 7,8,9,10]: Create a new article 
+2020-10-13 17:03:14,115 INFO  [Test]    Entered title: Test Article 1 
+2020-10-13 17:03:14,438 INFO  [Test]    Selected: Sample Data-Articles 
+2020-10-13 17:03:15,967 INFO  [Test] Click the Save and Close Button 
+2020-10-13 17:03:16,019 INFO  [Test] Verify Point pass: Correct message and the article present 
+2020-10-13 17:03:16,019 INFO  [Test] [STEP 12, 13]: Archive a newly created article 
+2020-10-13 17:03:16,159 INFO  [Test] Clicked the recent Article's checkbox 
+2020-10-13 17:03:16,221 INFO  [Test] Clicked the Archive button 
+2020-10-13 17:03:16,221 INFO  [Test] Verify Point pass: Correct message presents 
+2020-10-13 17:03:16,221 INFO  [Test] [STEP 15]: Select 'Archived' item of 'Status' dropdown list 
+2020-10-13 17:03:31,901 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 17:03:31,948 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 17:03:39,909 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 17:03:40,067 INFO  [Test]    Entered username: duy 
+2020-10-13 17:03:40,158 INFO  [Test]    Entered password: duy123 
+2020-10-13 17:03:41,710 INFO  [Test]    Clicked Login button 
+2020-10-13 17:03:43,154 INFO  [Test] Clicked button Article Manager 
+2020-10-13 17:03:44,211 INFO  [Test]    Selected list limit: 5 
+2020-10-13 17:03:44,514 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 17:04:49,338 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 17:04:57,711 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 17:04:57,975 INFO  [Test]    Entered username: duy 
+2020-10-13 17:04:58,166 INFO  [Test]    Entered password: duy123 
+2020-10-13 17:04:59,834 INFO  [Test]    Clicked Login button 
+2020-10-13 17:05:01,480 INFO  [Test] Clicked button Article Manager 
+2020-10-13 17:05:02,704 INFO  [Test]    Selected list limit: 5 
+2020-10-13 17:05:03,091 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 17:05:13,038 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 17:05:21,402 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 17:05:21,626 INFO  [Test]    Entered username: duy 
+2020-10-13 17:05:21,796 INFO  [Test]    Entered password: duy123 
+2020-10-13 17:05:23,425 INFO  [Test]    Clicked Login button 
+2020-10-13 17:05:25,125 INFO  [Test] Clicked button Article Manager 
+2020-10-13 17:05:26,345 INFO  [Test]    Selected list limit: 5 
+2020-10-13 17:05:26,700 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 17:06:59,666 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 17:07:09,672 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 17:07:09,819 INFO  [Test]    Entered username: duy 
+2020-10-13 17:07:09,914 INFO  [Test]    Entered password: duy123 
+2020-10-13 17:07:11,526 INFO  [Test]    Clicked Login button 
+2020-10-13 17:07:13,291 INFO  [Test] Clicked button Article Manager 
+2020-10-13 17:07:16,138 INFO  [Test]    Selected list limit: 5 
+2020-10-13 17:07:16,393 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 17:07:53,785 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 17:08:02,282 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 17:08:02,487 INFO  [Test]    Entered username: duy 
+2020-10-13 17:08:02,580 INFO  [Test]    Entered password: duy123 
+2020-10-13 17:08:04,184 INFO  [Test]    Clicked Login button 
+2020-10-13 17:08:05,746 INFO  [Test] Clicked button Article Manager 
+2020-10-13 17:08:06,790 INFO  [Test]    Selected list limit: 5 
+2020-10-13 17:08:08,815 INFO  [Test]    Selected list limit: All 
+2020-10-13 17:08:23,860 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 17:08:23,860 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 17:08:24,061 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
+2020-10-13 17:11:25,637 INFO  [Test] ------------------------------ OPEN CHROME BROWSER---------------------- 
+2020-10-13 17:11:34,222 INFO  [Test] Navigated to URL: http://13.82.211.128:8080/administrator/ 
+2020-10-13 17:11:34,420 INFO  [Test]    Entered username: duy 
+2020-10-13 17:11:34,539 INFO  [Test]    Entered password: duy123 
+2020-10-13 17:11:36,183 INFO  [Test]    Clicked Login button 
+2020-10-13 17:11:36,186 INFO  [Test] [STEP 4]: Open the Article Manager page 
+2020-10-13 17:11:37,771 INFO  [Test] Clicked button Article Manager 
+2020-10-13 17:11:37,771 INFO  [Test] [STEP 5]: Select item '5' of the 'Display' dropdown list 
+2020-10-13 17:11:38,883 INFO  [Test]    Selected list limit: 5 
+2020-10-13 17:11:38,913 INFO  [Test] Verify Point pass: Correct paging of the table 
+2020-10-13 17:11:38,913 INFO  [Test] [STEP 7]: Select item 'All' of the 'Display' dropdown list 
+2020-10-13 17:11:40,994 INFO  [Test]    Selected list limit: All 
+2020-10-13 17:11:56,099 INFO  [Test] Verify Point pass: All articles are displayed in one page 
+2020-10-13 17:11:56,100 INFO  [Test] ------------------------------ Test Result -------------------------------- 
+2020-10-13 17:11:56,100 INFO  [Test] Test case PASSED! All actual results are correct! 
+2020-10-13 17:11:56,311 INFO  [Test] ------------------------------ CLOSE BROWSER ---------------------------------
+
+ 
