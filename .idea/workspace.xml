@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97d09104-b1ef-4273-b201-0f1506f40aea" name="Default Changelist" comment="" />
+    <list default="true" id="97d09104-b1ef-4273-b201-0f1506f40aea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logfile.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/ArticleManagerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/ArticleManagerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Final_Test_Joomla.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/ArticleManagerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/ArticleManagerPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Final_Test_Joomla.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcase/TO_JOOMLA_ARTICLE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcase/TO_JOOMLA_ARTICLE.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +38,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.TO_JOOMLA_ARTICLE.TO_JOOMLA_ARTICLE_012">
+  <component name="RunManager" selected="TestNG.TO_JOOMLA_ARTICLE.TO_JOOMLA_ARTICLE_005 (1)">
     <configuration name="TO_JOOMLA_ARTICLE" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Test_Joomla" />
       <extension name="coverage">
@@ -69,6 +77,33 @@
       <option name="PACKAGE_NAME" value="testcase" />
       <option name="MAIN_CLASS_NAME" value="testcase.TO_JOOMLA_ARTICLE" />
       <option name="METHOD_NAME" value="TC_001" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TO_JOOMLA_ARTICLE.TO_JOOMLA_ARTICLE_005 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testcase" />
+      <option name="MAIN_CLASS_NAME" value="testcase.TO_JOOMLA_ARTICLE" />
+      <option name="METHOD_NAME" value="TO_JOOMLA_ARTICLE_005" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -159,6 +194,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TO_JOOMLA_ARTICLE.TO_JOOMLA_ARTICLE_005 (1)" />
         <item itemvalue="TestNG.TO_JOOMLA_ARTICLE.TO_JOOMLA_ARTICLE_012" />
         <item itemvalue="TestNG.TO_JOOMLA_ARTICLE" />
         <item itemvalue="TestNG.TO_JOOMLA_ARTICLE.TO_JOOMLA_ARTICLE_005" />
@@ -192,22 +228,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="411" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1602560939550" />
-    <state width="1397" height="276" key="GridCell.Tab.0.bottom" timestamp="1602584489050">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1602585408034">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602584489050" />
-    <state width="1397" height="276" key="GridCell.Tab.0.center" timestamp="1602584489050">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602585408034" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1602585408034">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1602584489050" />
-    <state width="1397" height="276" key="GridCell.Tab.0.left" timestamp="1602584489050">
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1602585408034" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1602585408034">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1602584489050" />
-    <state width="1397" height="276" key="GridCell.Tab.0.right" timestamp="1602584489050">
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1602585408034" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1602585408034">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="276" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1602584489050" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1602585408034" />
     <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1602584489050">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

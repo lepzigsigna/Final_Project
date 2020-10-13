@@ -19,9 +19,9 @@ public class ArticleManagerPage extends BasePage {
 
     private By bySuccessMessage = By.cssSelector("div[class='alert alert-success']>div");
 
-    private By byArticleRowCount = By.xpath("//input[contains(@id,'cb')]");//tbody>tr
+    private By byArticleRowCount = By.xpath("//input[contains(@id,'cb')]");
 
-    private By byStatusDropdown = By.xpath("//select[@id='filter_published']/..");
+    private By byStatusDropdown = By.xpath("//select[@id='filter_published']/../div/a/div");
     private By byListLimitDropdown = By.xpath("//select[@id='list_limit']/..");
     private String xpathDropdownOption = "//ul[@class='chzn-results']/li[contains(.,'%s')]";
 
