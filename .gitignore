@@ -79,3 +79,6 @@ target/test-classes/testcase/BaseTest.class
 target/test-classes/testcase/TC_JOOMLA_BANNERS_BANNERS.class
 target/test-classes/testcase/TC_JOOMLA_CONTACTS.class
 target/test-classes/testcase/TO_JOOMLA_ARTICLE.class
+target/classes/helper/NewWindowHelper.class
+target/test-classes/testcase/TC_JOOMLA_BANNERS_CLIENTS.class
+target/test-classes/testcase/TC_JOOMLA_CATEGORY_MANAGER.class

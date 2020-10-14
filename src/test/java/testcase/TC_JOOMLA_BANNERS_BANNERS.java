@@ -1,6 +1,7 @@
 package testcase;
 
 import helper.DataHelper;
+import helper.NewWindowHelper;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -107,7 +108,7 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
         newBannerPage.clickHelpBtn();
 
         //  Verify Point
-        Assert.assertTrue(verifyPopupWindowURL
+        Assert.assertTrue(NewWindowHelper.verifyPopupWindowURL
                         (Constant.BANNER_HELP_PAGE_URL));
         Logger.verifyPointPass("The 'New Banner Help' page appeared");
 

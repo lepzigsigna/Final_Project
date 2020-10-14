@@ -52,6 +52,11 @@ public class Constant {
     public static final String BANNER_HELP_PAGE_URL = "http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help16:Components_Banners_Banners_Edit";
 
     /**
+     * NEW CLIENT PAGE
+     */
+    public static final String INVALID_FIELD_EMAIL_MESS = "Invalid field:  Contact Email";
+
+    /**
      * Valid Account
      */
     public static final String VALID_USERNAME = "duy";

@@ -36,7 +36,7 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
 
         //  Steps
         Logger.testCaseStep("5", "Select Content > Article Manager");
-        mainPage.clickArticleManagerBtn();
+        mainPage.clickSubMenuItem("Content","Articles");
 
         Logger.testCaseStep("6", "Click on 'New' icon of the top right toolbar");
         articleManagerPage.clickNewBtn();
@@ -77,7 +77,7 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
         int totalArticle;
         //  Steps
         Logger.testCaseStep("4","Open the Article Manager page");
-        mainPage.clickArticleManagerBtn();
+        mainPage.clickSubMenuItem("Content","Articles");
 
         Logger.testCaseStep("5","Select item '5' of the 'Display' dropdown list");
         articleManagerPage.selectListLimit(rowLimit[0]);

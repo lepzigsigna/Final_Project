@@ -20,7 +20,7 @@ public class Logger {
     }
 
     public static void testCaseDescription (String Description) {
-        logger.info("Description: " +  Description);
+        logger.info("DESCRIPTION: " +  Description);
     }
 
     public static void testCaseStep(String stepCount, String stepDescription) { logger.info("[STEP "+ stepCount + "]: " + stepDescription);}

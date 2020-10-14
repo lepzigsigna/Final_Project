@@ -6,10 +6,11 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Constant;
-import utils.Logger;
+
 
 public class BasePage {
 
@@ -41,7 +42,7 @@ public class BasePage {
         actions.moveToElement(element).perform();
     }
 
-    public static void scrollToDownToElement( WebElement element) {
+    public static void scrollToDownToElement(WebElement element) {
         //_driver = driver;
         JavascriptExecutor js = (JavascriptExecutor) DriverHelper.getWebDriver();
         js.executeScript("arguments[0].scrollIntoView();", element);
@@ -50,6 +51,20 @@ public class BasePage {
     public String getTextOf(WebElement element) {
         return element.getText().trim();
     }
+
+    public String getAttributeValueOf(WebElement element, String attribute) {
+        return element.getAttribute(attribute).trim();
+    }
+
+    public void getColorCodeOf(WebElement element) {
+        System.out.println(element.getCssValue("background-color"));
+        System.out.println(element.getCssValue("color"));
+        System.out.println(element.getCssValue("border-color"));
+        System.out.println(element.getCssValue("border"));
+        System.out.println(element.getCssValue("border-top-color"));
+        System.out.println(element.getCssValue("border-bottom-color"));
+    }
+
 
     public void clickWhenElementReady(WebElement element) {
         waitUntilVisible(element);

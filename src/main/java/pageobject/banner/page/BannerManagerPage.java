@@ -13,9 +13,11 @@ public class BannerManagerPage extends BasePage {
     private By byNewBtn = By.cssSelector("#toolbar-new>button");
     private By byArchiveBtn = By.cssSelector("#toolbar-archive>button");
     private By bySearchToolsBtn = By.cssSelector("div[class='btn-wrapper hidden-phone']>button");
+    private By bySearchTextBox = By.cssSelector("input#filter_search");
+    private By bySearchBtn = By.cssSelector("div[class='btn-wrapper input-append']>button");
 
     private String byBannerCheckBox = "//td[@class='has-context']//a[contains(text(),'%s')]/ancestor::tr//input";
-    private String byClientCheckbox = "//div[@class='pull-left']/a[contains(text(),'Kareem')]/ancestor::tr//input";
+    private String byClientCheckbox = "//div[@class='pull-left']/a[contains(text(),'%s')]/ancestor::tr//input";
     private String byCategoryCheckBox = "//a[@class='hasTooltip' and contains(text(),'%s')]/ancestor::tr//input[@type='checkbox']";
 
     private By bySuccessMessage = By.cssSelector("div[class='alert alert-success']>div");
@@ -37,6 +39,10 @@ public class BannerManagerPage extends BasePage {
     private WebElement searchToolsBtn() {
         return DriverHelper.getWebDriver().findElement(bySearchToolsBtn);
     }
+
+    private WebElement searchTextBox() { return DriverHelper.getWebDriver().findElement(bySearchTextBox);}
+
+    private WebElement searchBtn() { return DriverHelper.getWebDriver().findElement(bySearchBtn);}
 
     private WebElement clientCheckBox(String clientName) {
         return DriverHelper.getWebDriver().findElement(By.xpath(String.format(byClientCheckbox,clientName)));
@@ -85,6 +91,18 @@ public class BannerManagerPage extends BasePage {
     public void clickCheckBox(String bannerName) {
         clickWhenElementReady(bannerCheckBox(bannerName));
         Logger.info("Clicked the recent Banner's checkbox");
+    }
+
+    public void clickSearchBtn() {
+        clickWhenElementReady(searchBtn());
+        Logger.info("   Click the Search button");
+    }
+
+    public void performSearch(String keywords) {
+        waitUntilVisible(searchTextBox());
+        searchTextBox().sendKeys(keywords);
+        Logger.info("   Entered in to search: " + keywords);
+
     }
 
     public void archiveTheNewBanner(String bannerName) {

@@ -98,24 +98,4 @@ public class DriverHelper {
         alert.dismiss();
     }
 
-    public static boolean verifyPopupWindowURL(String URL) {
-        boolean result = false;
-        //Store the main window
-        String mainWindow = driver.getWindowHandle();
-
-        // Get all Opened Window
-        for (String windowHandle : driver.getWindowHandles()) {
-
-            if (!windowHandle.equals(mainWindow)) {
-                driver.switchTo().window(windowHandle);
-                if (driver.getCurrentUrl().equalsIgnoreCase(URL)) {
-                    result = true;
-                }
-                driver.close();
-            }
-            driver.switchTo().window(mainWindow);
-        }
-        return result;
-    }
-
 }
