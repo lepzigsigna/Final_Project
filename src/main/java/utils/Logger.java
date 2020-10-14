@@ -35,6 +35,11 @@ public class Logger {
         logger.info("Test case FAILED! Actual result(s) does not match expected ones!");
     }
 
+    public static void verifyPointPass (String passMessage) {
+        logger.info("Verify Point PASSED: " + passMessage);
+    }
+
+
     public static void inputData (String textData, Object data) {
         logger.info("   >> " + textData + ": " +  data.toString());
     }

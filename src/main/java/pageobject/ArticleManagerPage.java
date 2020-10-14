@@ -16,18 +16,12 @@ public class ArticleManagerPage extends BasePage {
     private By byArchiveBtn = By.cssSelector("#toolbar-archive>button");
     private By bySearchToolsBtn = By.cssSelector("div[class='btn-wrapper hidden-phone']>button");
     private By byRecentArticleCheckbox = By.xpath("//tbody/tr/td[@class='small hidden-phone']/a[contains(text(),'Duy')]/../preceding-sibling::td//input");
-
     private By bySuccessMessage = By.cssSelector("div[class='alert alert-success']>div");
-
     private By byArticleRowCount = By.xpath("//input[contains(@id,'cb')]");
-
-    private By byStatusDropdown = By.xpath("//select[@id='filter_published']/../div/a/div");
+    private By byStatusDropdown = By.xpath("//select[@id='filter_published']/../div");
     private By byListLimitDropdown = By.xpath("//select[@id='list_limit']/..");
     private String xpathDropdownOption = "//ul[@class='chzn-results']/li[contains(.,'%s')]";
-
-    //private String xpathArticleRow = "//tbody/tr[td[@class='has-context' and contains(.,'%s')] and td[@class='small hidden-phone' and contains(.,'%s')]]";
     private String xpathArticleRow = "//input[@id='cb0']/ancestor::tbody/tr[td[@class='has-context' and contains(.,'%s')] and td[@class='small hidden-phone' and contains(.,'%s')]]";
-
     private By byGoToPageBtn = By.xpath("//a[contains(@aria-label,'Go to page')]");
     private By byGoToLastPageBtn = By.cssSelector("a[aria-label='Go to end page']");
 
@@ -113,6 +107,7 @@ public class ArticleManagerPage extends BasePage {
     }
 
     public void selectStatus(String status) {
+        clickWhenElementReady(searchToolsBtn());
         clickWhenElementReady(statusDropdown());
         clickWhenElementReady(dropdownOption(status));
         Logger.info("   Selected status: " + status);
@@ -135,13 +130,17 @@ public class ArticleManagerPage extends BasePage {
 
     public int getTotalArticle() {
         int listLimit;
+        int total;
+        int totalPage;
         listLimit = getArticleRowCount();
-        System.out.println("List limit is: " + listLimit);
+        //System.out.println("List limit is: " + listLimit);
+        scrollToDownToElement(goToLastPageBtn());
         clickWhenElementReady(goToLastPageBtn());
-        int total = getArticleRowCount() + listLimit * (goToPageBtn().size());
-        System.out.println("Total article: " + total);
-        System.out.println("Number of page " + (goToPageBtn().size() + 1));
-        return getArticleRowCount() + listLimit * (goToPageBtn().size());
+        totalPage = Integer.parseInt(goToPageBtn().get(goToPageBtn().size() - 1).getText().trim());
+        //System.out.println("Total Page is: " + totalPage + " + 1");
+        total = getArticleRowCount() + listLimit * totalPage;
+        //System.out.println("Total article: " + total);
+        return total;
     }
 
 

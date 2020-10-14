@@ -2,8 +2,10 @@ package pageobject;
 
 import helper.DriverHelper;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Constant;
@@ -34,6 +36,16 @@ public class BasePage {
         return result;
     }
 
+    public void hoverMouseOver(WebElement element) {
+        Actions actions = new Actions(DriverHelper.getWebDriver());
+        actions.moveToElement(element).perform();
+    }
+
+    public static void scrollToDownToElement( WebElement element) {
+        //_driver = driver;
+        JavascriptExecutor js = (JavascriptExecutor) DriverHelper.getWebDriver();
+        js.executeScript("arguments[0].scrollIntoView();", element);
+    }
 
     public String getTextOf(WebElement element) {
         return element.getText().trim();

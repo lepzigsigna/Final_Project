@@ -1,5 +1,6 @@
 package testcase;
 
+import helper.DataHelper;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -19,8 +20,8 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
 
     @BeforeMethod
     public void loginTheSystem() {
+        Logger.info("Login the System");
         loginPage.login(Constant.VALID_USERNAME, Constant.VALID_PASSWORD);
-        Logger.info("L");
     }
 
 
@@ -29,9 +30,9 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
         Logger.testCaseHeader("TC_JOOMLA_ARTICLE_005");
         Logger.testCaseDescription("Verify user can move an article to the archive");
         //  Test Data
-        String articleTitle = "Test Article 1";
+        String articleTitle = DataHelper.generateArticleTitle();
         String articleCategory = "Sample Data-Articles";
-        String articleContent = "this is article content";
+        String articleContent = DataHelper.generateArticleContent();
 
         //  Steps
         Logger.testCaseStep("5", "Select Content > Article Manager");
@@ -44,24 +45,23 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
         newArticlePage.createArticle(articleTitle, articleCategory, articleContent);
 
         //  Verify point
-        //Assert.assertEquals(articleManagerPage.getSuccessMessage(), Constant.ARTICLE_SAVED_SUCCESS_MESS,"The successful message is not correct");
+        Assert.assertEquals(articleManagerPage.getSuccessMessage(), Constant.ARTICLE_SAVED_SUCCESS_MESS,"The successful message is not correct");
         Assert.assertTrue(articleManagerPage.isArticleRowDisplayed(articleTitle, Constant.ARTICLE_AUTHOR), "The new Article is not displayed in the table");
-        Logger.info("Verify Point pass: Correct message and the article present");
+        Logger.verifyPointPass("Correct message and the article present");
 
         Logger.testCaseStep("12, 13", "Archive a newly created article");
         articleManagerPage.archiveTheNewArticle();
 
         //  Verify point
-        //Assert.assertEquals(articleManagerPage.getSuccessMessage(), Constant.ARCHIVE_SUCCESSFULLY_MESS, "The successful message is not correct");
-        Logger.info("Verify Point pass: Correct message presents");
+        Assert.assertEquals(articleManagerPage.getSuccessMessage(), Constant.ARCHIVE_SUCCESSFULLY_MESS, "The successful message is not correct");
+        Logger.verifyPointPass("Correct message presents");
 
         Logger.testCaseStep("15", "Select 'Archived' item of 'Status' dropdown list");
-        articleManagerPage.clickSearchToolBtn();
         articleManagerPage.selectStatus("Archived");
 
         //  Verify point
         Assert.assertTrue(articleManagerPage.isArticleRowDisplayed(articleTitle, Constant.ARTICLE_AUTHOR), "The new Article is not displayed in the table");
-        Logger.info("Verify Point pass: Correct Article present in the Archive");
+        Logger.verifyPointPass("Correct Article present in the Archive");
 
         Logger.logTestCasePass();
     }
@@ -69,9 +69,12 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
 
     @Test(testName = "TO_JOOMLA_ARTICLE_012")
     public void TO_JOOMLA_ARTICLE_012() {
+        Logger.testCaseHeader("TC_JOOMLA_ARTICLE_012");
+        Logger.testCaseDescription("Verify user can paging the articles using the paging control");
+
         //  Test data
         String[] rowLimit = {"5","All"};
-
+        int totalArticle;
         //  Steps
         Logger.testCaseStep("4","Open the Article Manager page");
         mainPage.clickArticleManagerBtn();
@@ -81,17 +84,18 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
 
         //  Verify point
         Assert.assertEquals(String.valueOf(articleManagerPage.getArticleRowCount()), rowLimit[0], "The total in the table is not " + rowLimit[0]);
-        Logger.info("Verify Point pass: Correct paging of the table");
+        Logger.verifyPointPass("Correct paging of the table");
 
         Logger.testCaseStep("7","Select item 'All' of the 'Display' dropdown list");
+        //  Get total number of article
+        totalArticle = articleManagerPage.getTotalArticle();
         articleManagerPage.selectListLimit(rowLimit[1]);
 
         //  Verify point
         Assert.assertFalse(articleManagerPage.isPageNavigationBarDisplayed());
-        Logger.info("Verify Point pass: All articles are displayed in one page");
+        Assert.assertEquals(totalArticle,articleManagerPage.getArticleRowCount());
+        Logger.verifyPointPass("All articles are displayed in one page");
 
         Logger.logTestCasePass();
     }
-
-
 }
