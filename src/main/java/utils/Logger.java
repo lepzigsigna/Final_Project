@@ -10,8 +10,8 @@ public class Logger {
         DOMConfigurator.configure("log4j.xml");
     }
 
-    public static void info(String infoMessage) {
-        logger.info(infoMessage);
+    public static void info(String infoMsg) {
+        logger.info(infoMsg);
     }
 
     public static void testCaseHeader (String testCaseNo) {
@@ -35,8 +35,8 @@ public class Logger {
         logger.info("Test case FAILED! Actual result(s) does not match expected ones!");
     }
 
-    public static void verifyPointPass (String passMessage) {
-        logger.info("Verify Point PASSED: " + passMessage);
+    public static void verifyPointPass (String passMsg) {
+        logger.info("Verify Point PASSED: " + passMsg);
     }
 
 

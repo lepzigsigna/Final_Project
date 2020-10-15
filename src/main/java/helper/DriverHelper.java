@@ -82,12 +82,6 @@ public class DriverHelper {
         return driver.getTitle();
     }
 
-    //Used when needed to scroll down to the element needed to interact with
-    public static void scrollToElement(WebElement element) {
-        JavascriptExecutor js = (JavascriptExecutor) DriverHelper.getWebDriver();
-        js.executeScript("arguments[0].scrollIntoView();", element);
-    }
-
     public static void acceptAlert() {
         Alert alert = driver.switchTo().alert();
         alert.accept();

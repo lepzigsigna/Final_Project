@@ -2,15 +2,16 @@ package testcase;
 
 import helper.DataHelper;
 import helper.NewWindowHelper;
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageobject.LoginPage;
 import pageobject.MainPage;
 import pageobject.banner.page.BannerManagerPage;
-import pageobject.banner.page.NewBannerPage;
-import pageobject.banner.page.NewCategoryPage;
-import pageobject.banner.page.NewClientPage;
+import pageobject.banner.page.BannerBannerPage;
+import pageobject.banner.page.BannerCategoryPage;
+import pageobject.banner.page.BannerClientPage;
 import utils.Constant;
 import utils.Logger;
 
@@ -18,9 +19,9 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
     private LoginPage loginPage = new LoginPage();
     private MainPage mainPage = new MainPage();
     private BannerManagerPage bannerManagerPage = new BannerManagerPage();
-    private NewClientPage newClientPage = new NewClientPage();
-    private NewCategoryPage newCategoryPage = new NewCategoryPage();
-    private NewBannerPage newBannerPage = new NewBannerPage();
+    private BannerClientPage newClientPage = new BannerClientPage();
+    private BannerCategoryPage newCategoryPage = new BannerCategoryPage();
+    private BannerBannerPage newBannerPage = new BannerBannerPage();
 
     @BeforeMethod
     public void loginTheSystem() {
@@ -30,7 +31,7 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
 
 
     @Test(testName = "TC_JOOMLA_BANNERS_BANNERS_005")
-    public void TC_JOOMLA_BANNERS_BANNERS_005() {
+    public void TC_JOOMLA_BANNERS_BANNERS_005() throws NoSuchElementException {
         Logger.testCaseHeader("TC_JOOMLA_BANNERS_BANNERS_005");
         Logger.testCaseDescription("Verify that user can archive a banner");
 
@@ -49,8 +50,8 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
         Logger.testCaseStep("8 - 11", "Create a new client");
         newClientPage.createNewClient(clientName, contactName, contactEmail);
 
-        //Verify point
-        Assert.assertEquals(bannerManagerPage.getSuccessMessage(), "Client saved.");
+        //  Verify point
+        Assert.assertEquals(bannerManagerPage.getSuccessMsg(), Constant.CLIENT_SAVE_SUCCESS_MESS);
         Assert.assertTrue(bannerManagerPage.isClientDisplayed(clientName));
         Logger.verifyPointPass("Correct message and client '" + clientName + "' present");
 
@@ -60,9 +61,10 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
 
         Logger.testCaseStep("16 -17", "Create a new Category");
         newCategoryPage.createNewCategory(categoryName);
+        bannerManagerPage.chooseNewlyCreatedCategory(categoryName);
 
-        //Verify point
-        Assert.assertEquals(bannerManagerPage.getSuccessMessage(), "Category saved.");
+        //  Verify point
+        Assert.assertEquals(bannerManagerPage.getSuccessMsg(), Constant.ARTICLE_CATEGORY_SAVED_SUCCESS_MESS);
         Assert.assertTrue(bannerManagerPage.isCategoryDisplayed(categoryName));
         Logger.verifyPointPass("Correct message and category '" + categoryName + "' present");
 
@@ -73,22 +75,22 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
         Logger.testCaseStep("22 - 25", "Create a new Banner");
         newBannerPage.createNewBanner(bannerName, categoryName, clientName);
 
-        //Verify Point
-        Assert.assertEquals(bannerManagerPage.getSuccessMessage(), "Banner saved.");
+        //  Verify Point
+        Assert.assertEquals(bannerManagerPage.getSuccessMsg(), Constant.BANNER_SAVE_SUCCESS_MESS);
         Assert.assertTrue(bannerManagerPage.isBannerDisplayed(bannerName));
         Logger.verifyPointPass("Correct message and the banner with name '" + bannerName + "' presents");
 
         Logger.testCaseStep("27 - 28", "Archive the newly created banner");
         bannerManagerPage.archiveTheNewBanner(bannerName);
 
-        //Verify Point
-        Assert.assertEquals(bannerManagerPage.getSuccessMessage(), "1 banner archived.");
+        //   Verify Point
+        Assert.assertEquals(bannerManagerPage.getSuccessMsg(), Constant.BANNER_ARCHIVED_SUCCESS_MESS);
         Logger.verifyPointPass("Correct message is displayed");
 
         Logger.testCaseStep("30", "Open the 'Archived banners' section");
         bannerManagerPage.selectStatus("Archived");
 
-        //Verify Point
+        //   Verify Point
         Assert.assertTrue(bannerManagerPage.isBannerDisplayed(bannerName));
         Logger.verifyPointPass("Correct banner with name '" + bannerName + "' present");
 

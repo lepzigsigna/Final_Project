@@ -82,3 +82,17 @@ target/test-classes/testcase/TO_JOOMLA_ARTICLE.class
 target/classes/helper/NewWindowHelper.class
 target/test-classes/testcase/TC_JOOMLA_BANNERS_CLIENTS.class
 target/test-classes/testcase/TC_JOOMLA_CATEGORY_MANAGER.class
+target/classes/pageobject/article/page/ArticleArticlePage.class
+target/classes/pageobject/article/page/ArticleCategoryPage.class
+target/classes/pageobject/article/page/ArticleManagerPage.class
+target/classes/pageobject/banner/page/BannerBannerPage.class
+target/classes/pageobject/banner/page/BannerCategoryPage.class
+target/classes/pageobject/banner/page/BannerClientPage.class
+target/classes/pageobject/contact/page/ContactContactPage.class
+target/classes/pageobject/contact/page/ContactManagerPage.class
+target/classes/pageobject/weblink/page/WebLinkManagerPage.class
+target/classes/pageobject/weblink/page/WebLinkWebLinkPage.class
+target/classes/utils/Constant$bannerSubItem.class
+target/classes/utils/Constant$menuItem.class
+target/classes/utils/Constant$subMenuItem.class
+target/test-classes/testcase/TO_JOOMLA_WEBLINKS.class

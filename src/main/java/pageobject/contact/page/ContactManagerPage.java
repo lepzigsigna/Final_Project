@@ -1,8 +1,9 @@
-package pageobject;
+package pageobject.contact.page;
 
 import helper.DriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import pageobject.BasePage;
 import utils.Logger;
 
 import java.util.List;
@@ -12,31 +13,26 @@ public class ContactManagerPage extends BasePage {
     /**
      * LOCATORS
      */
-    private By byNewBtn = By.cssSelector("#toolbar-new>button");
-    private By byArchiveBtn = By.cssSelector("#toolbar-archive>button");
     private By bySearchToolBtn = By.cssSelector("div[class='btn-wrapper hidden-phone']>button");
-    private By bySuccessMessage = By.cssSelector("div[class='alert alert-success']>div");
 
     private String xpathRecentContactCheckBox = "//td[@class='has-context']//a[contains(text(),'%s')]/ancestor::tr/td/input";
 
 
     private By byContactRowCount = By.xpath("//input[contains(@id,'cb')]");
-    private By byStatusDropdown = By.xpath("//select[@id='filter_published']/../div");
+
+
+    private By byStatusDropdown = By.cssSelector("div#filter_published_chzn");
+
+
+
     private By byListLimitDropdown = By.xpath("//select[@id='list_limit']/..");
-    private String xpathDropdownOption = "//ul[@class='chzn-results']/li[contains(.,'%s')]";
     private By byGoToPageBtn = By.xpath("//a[contains(@aria-label,'Go to page')]");
-    private By byGoToLastPageBtn = By.cssSelector("a[aria-label='Go to end page']");
 
 
     /**
      * ELEMENTS
      */
-    private WebElement newBtn() {
-        return DriverHelper.getWebDriver().findElement(byNewBtn);
-    }
-    private WebElement archiveBtn () { return DriverHelper.getWebDriver().findElement(byArchiveBtn);}
-    private WebElement searchToolBtn() { return DriverHelper.getWebDriver().findElement(bySearchToolBtn);}
-    private WebElement successMessage() { return DriverHelper.getWebDriver().findElement(bySuccessMessage);}
+    //private WebElement searchToolBtn() { return DriverHelper.getWebDriver().findElement(bySearchToolBtn);}
     private WebElement recentContactCheckBox(String contactName) {
         return DriverHelper.getWebDriver().findElement(By.xpath(String.format(xpathRecentContactCheckBox, contactName)));
     }
@@ -46,30 +42,15 @@ public class ContactManagerPage extends BasePage {
         return DriverHelper.getWebDriver().findElement(byListLimitDropdown);
     }
 
-    private WebElement dropdownOption(String option) {
-        return DriverHelper.getWebDriver().findElement(By.xpath(String.format(xpathDropdownOption, option)));
-    }
 
     private List<WebElement> contactRows() {
         return DriverHelper.getWebDriver().findElements(byContactRowCount);
-    }
-
-    private List<WebElement> goToPageBtn() {
-        return DriverHelper.getWebDriver().findElements(byGoToPageBtn);
-    }
-
-    private WebElement goToLastPageBtn() {
-        return DriverHelper.getWebDriver().findElement(byGoToLastPageBtn);
     }
 
 
     /**
      * METHODS
      */
-
-    public void clickNewBtn() {
-        clickWhenElementReady(newBtn());
-    }
 
     public void clickArchiveBtn() {
         clickWhenElementReady(archiveBtn());
@@ -85,7 +66,7 @@ public class ContactManagerPage extends BasePage {
     }
 
     public void selectStatus (String status) {
-        clickWhenElementReady(searchToolBtn());
+        clickWhenElementReady(searchToolsBtn());
         clickWhenElementReady(statusDropdown());
         clickWhenElementReady(dropdownOption(status));
     }
@@ -109,23 +90,16 @@ public class ContactManagerPage extends BasePage {
         return total;
     }
 
-
     public int getContactRowCount() {
         return contactRows().size();
     }
 
-    public String getSuccessMessage() {
-        return getTextOf(successMessage());
-    }
-
-
     public boolean isContactRowDisplayed(String contactName) {
-        return checkIfElementExist(recentContactCheckBox(contactName));
+        return verifyElementExist(recentContactCheckBox(contactName));
     }
-
 
     public boolean isPageNavigationBarDisplayed() {
-        return checkIfElementExist(byGoToPageBtn) && checkIfElementExist(goToLastPageBtn());
+        return verifyElementExist(byGoToPageBtn) && verifyElementExist(goToLastPageBtn());
     }
 
 

@@ -5,6 +5,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import utils.Constant;
+import utils.Logger;
 
 public class BaseTest extends DriverHelper {
     //    @BeforeMethod
@@ -27,6 +28,7 @@ public class BaseTest extends DriverHelper {
     @BeforeMethod
     public void setUpBrowser1() {
         openBrowser(DriverType.CHROME);
+        Logger.testCaseStep("1","Open the Base URL");
         navigateToURL(Constant.BASE_URL);
     }
 

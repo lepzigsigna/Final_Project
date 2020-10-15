@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import pageobject.LoginPage;
 import pageobject.MainPage;
 import pageobject.banner.page.BannerManagerPage;
-import pageobject.banner.page.NewClientPage;
+import pageobject.banner.page.BannerClientPage;
 import utils.Constant;
 import utils.Logger;
 
@@ -15,7 +15,7 @@ public class TC_JOOMLA_BANNERS_CLIENTS extends BaseTest {
     private LoginPage loginPage = new LoginPage();
     private MainPage mainPage = new MainPage();
     private BannerManagerPage bannerManagerPage = new BannerManagerPage();
-    private NewClientPage newClientPage = new NewClientPage();
+    private BannerClientPage newClientPage = new BannerClientPage();
 
     @BeforeMethod
     public void loginTheSystem() {
@@ -43,7 +43,7 @@ public class TC_JOOMLA_BANNERS_CLIENTS extends BaseTest {
         newClientPage.createNewClient(clientName, contactName, contactEmail);
 
         //Verify point
-        Assert.assertEquals(bannerManagerPage.getSuccessMessage(), Constant.CLIENT_SAVE_SUCCESS_MESS);
+        Assert.assertEquals(bannerManagerPage.getSuccessMsg(), Constant.CLIENT_SAVE_SUCCESS_MESS);
         Assert.assertTrue(bannerManagerPage.isClientDisplayed(clientName));
         Logger.verifyPointPass("Correct message and client '" + clientName + "' present");
 
@@ -69,7 +69,7 @@ public class TC_JOOMLA_BANNERS_CLIENTS extends BaseTest {
         newClientPage.createNewClient(clientName, contactName, contactEmail);
 
         //Verify point
-        Assert.assertEquals(bannerManagerPage.getSuccessMessage(), Constant.CLIENT_SAVE_SUCCESS_MESS);
+        Assert.assertEquals(bannerManagerPage.getSuccessMsg(), Constant.CLIENT_SAVE_SUCCESS_MESS);
         Assert.assertTrue(bannerManagerPage.isClientDisplayed(clientName));
         Logger.verifyPointPass("Correct message and client '" + clientName + "' present");
 
@@ -104,7 +104,7 @@ public class TC_JOOMLA_BANNERS_CLIENTS extends BaseTest {
         //  Verify Point
         Assert.assertFalse(newClientPage.validStatusOfContactEmailField());
         //Finding a way to verify the color code of the Contact Email field
-        Assert.assertEquals(newClientPage.getInvalidFieldMessage(),Constant.INVALID_FIELD_EMAIL_MESS);
+        Assert.assertEquals(newClientPage.getInvalidFieldMsg(),Constant.INVALID_FIELD_EMAIL_MESS);
         Logger.verifyPointPass("The Contact mail box changed to red");
 
 

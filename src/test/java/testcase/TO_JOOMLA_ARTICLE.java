@@ -4,8 +4,8 @@ import helper.DataHelper;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageobject.ArticleManagerPage;
-import pageobject.NewArticlePage;
+import pageobject.article.page.ArticleManagerPage;
+import pageobject.article.page.ArticleArticlePage;
 import pageobject.LoginPage;
 import pageobject.MainPage;
 import utils.Constant;
@@ -16,7 +16,7 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
     private LoginPage loginPage = new LoginPage();
     private MainPage mainPage = new MainPage();
     private ArticleManagerPage articleManagerPage = new ArticleManagerPage();
-    private NewArticlePage newArticlePage = new NewArticlePage();
+    private ArticleArticlePage newArticlePage = new ArticleArticlePage();
 
     @BeforeMethod
     public void loginTheSystem() {
@@ -26,7 +26,7 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
 
 
     @Test(testName = "TO_JOOMLA_ARTICLE_005")
-    public void TO_JOOMLA_ARTICLE_005() {
+    public void TO_JOOMLA_ARTICLE_005() throws InterruptedException {
         Logger.testCaseHeader("TC_JOOMLA_ARTICLE_005");
         Logger.testCaseDescription("Verify user can move an article to the archive");
         //  Test Data
@@ -36,7 +36,7 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
 
         //  Steps
         Logger.testCaseStep("5", "Select Content > Article Manager");
-        mainPage.clickSubMenuItem("Content","Articles");
+        mainPage.clickSubMenuItem(Constant.menuItem.Content, Constant.subMenuItem.Articles);
 
         Logger.testCaseStep("6", "Click on 'New' icon of the top right toolbar");
         articleManagerPage.clickNewBtn();
@@ -45,7 +45,7 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
         newArticlePage.createArticle(articleTitle, articleCategory, articleContent);
 
         //  Verify point
-        Assert.assertEquals(articleManagerPage.getSuccessMessage(), Constant.ARTICLE_SAVED_SUCCESS_MESS,"The successful message is not correct");
+        Assert.assertEquals(articleManagerPage.getSuccessMsg(), Constant.ARTICLE_SAVED_SUCCESS_MESS,"The successful message is not correct");
         Assert.assertTrue(articleManagerPage.isArticleRowDisplayed(articleTitle, Constant.ARTICLE_AUTHOR), "The new Article is not displayed in the table");
         Logger.verifyPointPass("Correct message and the article present");
 
@@ -53,7 +53,7 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
         articleManagerPage.archiveTheNewArticle();
 
         //  Verify point
-        Assert.assertEquals(articleManagerPage.getSuccessMessage(), Constant.ARCHIVE_SUCCESSFULLY_MESS, "The successful message is not correct");
+        Assert.assertEquals(articleManagerPage.getSuccessMsg(), Constant.ARCHIVE_SUCCESSFULLY_MESS, "The successful message is not correct");
         Logger.verifyPointPass("Correct message presents");
 
         Logger.testCaseStep("15", "Select 'Archived' item of 'Status' dropdown list");
@@ -77,7 +77,7 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
         int totalArticle;
         //  Steps
         Logger.testCaseStep("4","Open the Article Manager page");
-        mainPage.clickSubMenuItem("Content","Articles");
+        mainPage.clickSubMenuItem(Constant.menuItem.Content, Constant.subMenuItem.Articles);
 
         Logger.testCaseStep("5","Select item '5' of the 'Display' dropdown list");
         articleManagerPage.selectListLimit(rowLimit[0]);

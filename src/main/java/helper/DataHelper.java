@@ -23,5 +23,6 @@ public class DataHelper {
         return faker.lorem().sentence(100);
     }
 
+    public static String generateURL() {return faker.internet().url(); }
 
 }
