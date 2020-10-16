@@ -3,7 +3,7 @@ package pageobject.weblink.page;
 import helper.DriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import pageobject.BasePage;
+import pageobject.other.page.BasePage;
 import utils.Logger;
 
 public class WebLinkWebLinkPage extends BasePage {
@@ -15,10 +15,8 @@ public class WebLinkWebLinkPage extends BasePage {
     private By byImgBtn = By.cssSelector("div[aria-label='Image']>button");
     private String xpathImage = "//img[contains(@src,'powered_by.png')]/../..";
     private By byInsertBtn = By.cssSelector("button.button-save-selected");
-
     private By byImageIframe = By.cssSelector("iframe#imageframe");
     private By byInsertIframe = By.cssSelector("iframe[tabindex='-1']");
-    private By byParentIframe = By.cssSelector("iframe#jform_description_ifr");
 
     /**
      * ELEMENTS
@@ -42,11 +40,9 @@ public class WebLinkWebLinkPage extends BasePage {
     private WebElement imageIframe() {
         return DriverHelper.getWebDriver().findElement(byImageIframe);
     }
+
     private WebElement insertIframe() {
         return DriverHelper.getWebDriver().findElement(byInsertIframe);
-    }
-    private WebElement parentIframe() {
-        return DriverHelper.getWebDriver().findElement(byParentIframe);
     }
 
     /**
@@ -57,24 +53,23 @@ public class WebLinkWebLinkPage extends BasePage {
         clickWhenElementReady(imageBtn());
 
         Logger.info(" + Choose image");
-        DriverHelper.getWebDriver().switchTo().frame(parentIframe());
         DriverHelper.getWebDriver().switchTo().frame(insertIframe());
         DriverHelper.getWebDriver().switchTo().frame(imageIframe());
         clickWhenElementReady(image(imageName));
 
         Logger.info(" + Click Insert button");
         DriverHelper.getWebDriver().switchTo().defaultContent();
-        DriverHelper.getWebDriver().switchTo().frame(parentIframe());
+        DriverHelper.getWebDriver().switchTo().frame(insertIframe());
         clickWhenElementReady(insertBtn());
         DriverHelper.getWebDriver().switchTo().defaultContent();
     }
 
 
     public void createNewWebLink(String title, String URL, String imageName) {
-        titleField().sendKeys(title);
+        enterTitleField(title);
         URLField().sendKeys(URL);
         insertImage(imageName);
-        clickWhenElementReady(saveAndCloseBtn());
+        clickSaveAndCloseBtn();
     }
 
 

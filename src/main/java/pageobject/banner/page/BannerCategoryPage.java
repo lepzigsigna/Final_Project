@@ -1,7 +1,6 @@
 package pageobject.banner.page;
 
-import pageobject.BasePage;
-import utils.Logger;
+import pageobject.other.page.BasePage;
 
 public class BannerCategoryPage extends BasePage {
     /**
@@ -17,8 +16,7 @@ public class BannerCategoryPage extends BasePage {
      * METHODS
      */
     public void createNewCategory(String categoryName) {
-        titleField().sendKeys(categoryName);
-        Logger.info("   Enter Category: " + categoryName);
-        clickWhenElementReady(saveAndCloseBtn());
+        enterTitleField(categoryName);
+        clickSaveAndCloseBtn();
     }
 }

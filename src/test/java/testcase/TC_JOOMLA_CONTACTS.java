@@ -4,9 +4,10 @@ import helper.DataHelper;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageobject.*;
 import pageobject.contact.page.ContactContactPage;
 import pageobject.contact.page.ContactManagerPage;
+import pageobject.other.page.LoginPage;
+import pageobject.other.page.MainPage;
 import utils.Constant;
 import utils.Logger;
 
@@ -15,7 +16,7 @@ public class TC_JOOMLA_CONTACTS extends BaseTest{
     private LoginPage loginPage = new LoginPage();
     private MainPage mainPage = new MainPage();
     private ContactManagerPage contactManagerPage = new ContactManagerPage();
-    private ContactContactPage newContactPage = new ContactContactPage();
+    private ContactContactPage contactContactPage = new ContactContactPage();
 
     @BeforeMethod
     public void loginTheSystem() {
@@ -34,13 +35,13 @@ public class TC_JOOMLA_CONTACTS extends BaseTest{
 
         //  Steps
         Logger.testCaseStep("5", "Select Components > Contacts");
-        contactManagerPage.clickSubMenuItem(Constant.menuItem.Components, Constant.subMenuItem.Contacts);
+        mainPage.clickSubMenuItem(Constant.menuItem.Components, Constant.subMenuItem.Contacts);
 
         Logger.testCaseStep("6", "Click on 'New' icon of the top right toolbar");
         contactManagerPage.clickNewBtn();
 
         Logger.testCaseStep("7, 8, 9, 10", "Create a new contact");
-        newContactPage.createContact(contactName,contactCategory,contactStatus);
+        contactContactPage.createContact(contactName,contactCategory,contactStatus);
 
         //  Verify point
         Assert.assertEquals(contactManagerPage.getSuccessMsg(), Constant.CONTACT_SAVED_SUCCESS_MESS,"The successful message is not correct");
@@ -77,7 +78,7 @@ public class TC_JOOMLA_CONTACTS extends BaseTest{
         int totalContact;
         //  Steps
         Logger.testCaseStep("4","Open the Contact Manager page");
-        contactManagerPage.clickSubMenuItem(Constant.menuItem.Components, Constant.subMenuItem.Contacts);
+        mainPage.clickSubMenuItem(Constant.menuItem.Components, Constant.subMenuItem.Contacts);
 
         Logger.testCaseStep("5","Select item '5' of the 'Display' dropdown list");
         contactManagerPage.selectListLimit(rowLimit[0]);

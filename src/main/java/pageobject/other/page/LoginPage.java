@@ -1,4 +1,4 @@
-package pageobject;
+package pageobject.other.page;
 
 import helper.DriverHelper;
 import org.openqa.selenium.By;

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import utils.Constant;
 import utils.Logger;
 
@@ -21,7 +22,7 @@ public class DriverHelper {
         CHROME, FIREFOX, EDGE
     }
 
-    protected void openBrowser(DriverType type) {
+    public void openBrowser(DriverType type) {
         switch (type) {
             case FIREFOX:
                 WebDriverManager.firefoxdriver().setup();
@@ -48,18 +49,18 @@ public class DriverHelper {
         return driver;
     }
 
-    protected void navigateToURL(String URL) {
+    public void navigateToURL(String URL) {
         driver.navigate().to(URL);
         Logger.info("Navigated to URL: " + URL);
     }
 
-    private static void setBrowserProperties() {
+    public static void setBrowserProperties() {
         driver.manage().timeouts().pageLoadTimeout(Constant.PAGE_LOAD_TIME_OUT, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(Constant.IMPLICIT_WAIT,TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
 
-    protected void closeOneWindow() {
+    public void closeOneWindow() {
         if (driver != null) {
             driver.close();
             driver = null;
@@ -67,7 +68,7 @@ public class DriverHelper {
         }
     }
 
-    protected void closeAllWindow() {
+    public void closeAllWindow() {
         if (driver != null) {
             driver.quit();
             Logger.info("------------------------------ CLOSE ALL ACTIVE BROWSER ------------------------------\n\n");
@@ -91,5 +92,17 @@ public class DriverHelper {
         Alert alert = driver.switchTo().alert();
         alert.dismiss();
     }
+
+    public static void hoverMouseOver(WebElement element) {
+        Actions actions = new Actions(DriverHelper.getWebDriver());
+        actions.moveToElement(element).perform();
+    }
+
+    public static void scrollToDownToElement(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) DriverHelper.getWebDriver();
+        js.executeScript("arguments[0].scrollIntoView();", element);
+    }
+
+
 
 }

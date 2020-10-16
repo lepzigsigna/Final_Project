@@ -4,8 +4,8 @@ import helper.DataHelper;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageobject.LoginPage;
-import pageobject.MainPage;
+import pageobject.other.page.LoginPage;
+import pageobject.other.page.MainPage;
 import pageobject.weblink.page.WebLinkManagerPage;
 import pageobject.weblink.page.WebLinkWebLinkPage;
 import utils.Constant;
@@ -27,23 +27,27 @@ public class TO_JOOMLA_WEBLINKS extends BaseTest {
     @Test(testName = "TO_JOOMLA_WEBLINKS_013")
     public void TO_JOOMLA_WEBLINKS_013() {
         Logger.testCaseHeader("TO_JOOMLA_WEBLINKS_013");
-        Logger.testCaseDescription("User can add image to weblink's description");
+        Logger.testCaseDescription("User can add image to web link's description");
 
         //  TEST DATA
         String webLinkName = DataHelper.generateName();
         String webLinkURL = DataHelper.generateURL();
         String imageName = "powered_by.png";
 
-        mainPage.clickWebLinks();
+        //  STEP
+        Logger.testCaseStep("5 - 6", "Open the create New WebLink page");
+        mainPage.OpenWebLinksPage();
         webLinkManagerPage.clickNewBtn();
 
+        Logger.testCaseStep("7 - 12", "Create and save a new web link");
         webLinkPage.createNewWebLink(webLinkName, webLinkURL, imageName);
 
-
-        Assert.assertTrue(webLinkManagerPage.isWebLinkDisplayed(webLinkName));
+        //  Verify Point
         Assert.assertEquals(webLinkManagerPage.getSuccessMsg(), Constant.WEBLINK_SAVE_SUCCESS_MESS, "The successful message is not correct");
+        Assert.assertTrue(webLinkManagerPage.isWebLinkDisplayed(webLinkName));
         Logger.verifyPointPass("The message is correct and the weblink " + webLinkName + " is present");
-    }
 
+        Logger.logTestCasePass();
+    }
 
 }

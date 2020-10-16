@@ -66,21 +66,23 @@ public class Constant {
      * NEW BANNER PAGE
      */
     public static final String BANNER_HELP_PAGE_URL = "https://help.joomla.org/proxy?keyref=Help39:Components_Banners_Banners_Edit&lang=en";
-
+    public static final int BANNER_HELP_WINDOW_COUNT = 2;
     /**
      * NEW CLIENT PAGE
      */
     public static final String INVALID_FIELD_EMAIL_MESS = "Invalid field:  Contact Email";
+    public static final String HEX_CODE_INVALID_FIELD = "#d45b57";
 
     /**
      * NEW ARTICLE CATEGORY PAGE
      */
+    public static final String ARTICLE_CAT_EDIT_PAGE_TITLE = "Articles: Edit Category";
     public static final String ARTICLE_CAT_SAVE_SUCCESS_MESS = "Category saved.";
 
     /**
      * WEBLINK MANAGER PAGE
      */
-    public static final String WEBLINK_SAVE_SUCCESS_MESS = "Weblink saved.";
+    public static final String WEBLINK_SAVE_SUCCESS_MESS = "Web link successfully saved";
 
     /**
      * Valid Account

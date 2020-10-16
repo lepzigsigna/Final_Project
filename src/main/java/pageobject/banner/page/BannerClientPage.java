@@ -3,7 +3,7 @@ package pageobject.banner.page;
 import helper.DriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import pageobject.BasePage;
+import pageobject.other.page.BasePage;
 import utils.Logger;
 
 public class BannerClientPage extends BasePage {
@@ -31,7 +31,7 @@ public class BannerClientPage extends BasePage {
      * METHODS
      */
     public void createNewClient(String clientName, String contactName, String contactEmail) {
-        nameField().sendKeys(clientName);
+        enterNameField(clientName);
         Logger.info("   Enter client name: " + clientName);
         contactName().sendKeys(contactName);
         Logger.info("   Enter contact name: " + contactName);
@@ -52,7 +52,7 @@ public class BannerClientPage extends BasePage {
         return getTextOf(invalidFieldMsg());
     }
 
-    public void getcolor() {
-        getColorCodeOf(contactEmail());
+    public String getcolorOfEmailField() {
+       return getColorCodeOf(contactEmail());
     }
 }

@@ -3,7 +3,7 @@ package pageobject.weblink.page;
 import helper.DriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import pageobject.BasePage;
+import pageobject.other.page.BasePage;
 
 public class WebLinkManagerPage extends BasePage {
     /**
@@ -23,7 +23,8 @@ public class WebLinkManagerPage extends BasePage {
      *  METHODS
      */
     public boolean isWebLinkDisplayed(String webLinkName) {
-        return verifyElementExist(webLinkRow(webLinkName));
+        selectSortByIDDescending();
+        return isElementPresent(webLinkRow(webLinkName));
     }
 
 

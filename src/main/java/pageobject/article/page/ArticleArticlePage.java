@@ -3,8 +3,7 @@ package pageobject.article.page;
 import helper.DriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import pageobject.BasePage;
-import utils.Logger;
+import pageobject.other.page.BasePage;
 
 public class ArticleArticlePage extends BasePage {
 
@@ -24,17 +23,8 @@ public class ArticleArticlePage extends BasePage {
     /**
      * METHODS
      */
-    public void enterArticleTitle(String title) {
-        waitUntilVisible(titleField());
-        titleField().clear();
-        titleField().sendKeys(title);
-        Logger.info("   Entered title: " + title);
-    }
-
-    public void selectCategory(String category) {
-        clickWhenElementReady(categoryDropdown());
-        clickWhenElementReady(dropdownOption(category));
-        Logger.info("   Selected: " + category);
+    private void enterArticleTitle(String title) {
+        enterTitleField(title);
     }
 
     public void enterArticleContent(String content) {

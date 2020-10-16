@@ -3,7 +3,7 @@ package pageobject.contact.page;
 import helper.DriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import pageobject.BasePage;
+import pageobject.other.page.BasePage;
 import utils.Logger;
 
 public class ContactContactPage extends BasePage {
@@ -11,43 +11,39 @@ public class ContactContactPage extends BasePage {
     /**
      * LOCATORS
      */
-    private By byStatusDropdown = By.xpath("//div[@class='controls']/select[@id='jform_published']/..");
-
+    private By byStatusDropdown = By.cssSelector("div#jform_published_chzn");
+    private String xpathStatusOption = "//ul[@class='chzn-results']/li[text()='%s']";
 
     /**
      * WEB ELEMENTS
      */
 
-    private WebElement statusDropdown() { return DriverHelper.getWebDriver().findElement(byStatusDropdown); }
+    private WebElement statusDropdown() {
+        return DriverHelper.getWebDriver().findElement(byStatusDropdown);
+    }
 
+    private WebElement dropdownOption(String option) {
+        return DriverHelper.getWebDriver().findElement(By.xpath(String.format(xpathStatusOption, option)));
+    }
 
     /**
      * METHODS
      */
 
-    public void enterContactName(String contactName) {
-        waitUntilVisible(nameField());
-        nameField().clear();
-        nameField().sendKeys(contactName);
-        Logger.info("   Entered contact name: " + contactName);
+    private void enterContactName(String contactName) {
+        enterNameField(contactName);
     }
 
-    public void selectCategory(String category) {
-        clickWhenElementReady(categoryDropdown());
+    private void selectContactCategory(String category) {
+        clickWhenElementReady(statusDropdown());
         clickWhenElementReady(dropdownOption(category));
         Logger.info("   Selected: " + category);
-    }
-
-    public void selectStatus (String status) {
-        clickWhenElementReady(statusDropdown());
-        clickWhenElementReady(dropdownOption(status));
-        Logger.info("   Selected: " + status);
     }
 
     public void createContact(String contactName, String category, String status) {
         enterContactName(contactName);
         selectCategory(category);
-        selectStatus(status);
+        selectContactCategory(status);
         clickSaveAndCloseBtn();
     }
 

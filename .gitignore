@@ -96,3 +96,7 @@ target/classes/utils/Constant$bannerSubItem.class
 target/classes/utils/Constant$menuItem.class
 target/classes/utils/Constant$subMenuItem.class
 target/test-classes/testcase/TO_JOOMLA_WEBLINKS.class
+target/classes/helper/BrowserHelper.class
+target/classes/pageobject/other/page/BasePage.class
+target/classes/pageobject/other/page/LoginPage.class
+target/classes/pageobject/other/page/MainPage.class

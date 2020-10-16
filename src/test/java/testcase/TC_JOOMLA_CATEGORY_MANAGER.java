@@ -1,13 +1,14 @@
 package testcase;
 
 import helper.DataHelper;
+import helper.DriverHelper;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageobject.article.page.ArticleCategoryPage;
 import pageobject.article.page.ArticleManagerPage;
-import pageobject.LoginPage;
-import pageobject.MainPage;
+import pageobject.other.page.LoginPage;
+import pageobject.other.page.MainPage;
 import utils.Constant;
 import utils.Logger;
 
@@ -47,8 +48,7 @@ public class TC_JOOMLA_CATEGORY_MANAGER extends BaseTest {
         Logger.verifyPointPass("The success message is correct");
 
         Logger.testCaseStep("9 - 11", "Send the new category to Trash");
-        articleManagerPage.chooseNewlyCreatedCategory(categoryName);
-        articleManagerPage.clickTrashBtn();
+        articleManagerPage.moveCategoryToTrash(categoryName);
 
         //   Verify Point
         articleManagerPage.selectStatus("Trashed");
@@ -66,6 +66,7 @@ public class TC_JOOMLA_CATEGORY_MANAGER extends BaseTest {
         //  Test data
         String categoryName = DataHelper.generateCategoryName();
         String categoryNameEdited = categoryName + "_edited";
+        String editPageTitle;
 
         //  Steps
         Logger.testCaseStep("4 -5 ", "Open the New Category page");
@@ -74,14 +75,18 @@ public class TC_JOOMLA_CATEGORY_MANAGER extends BaseTest {
 
         Logger.testCaseStep("6- 7", "Create and save a new category");
         articleCategoryPage.saveCategory(categoryName);
+        editPageTitle = DriverHelper.getCurrentTitle().substring(0, 23);
 
         //  Verify Point
         Assert.assertEquals(articleCategoryPage.getSuccessMsg(), Constant.ARTICLE_CAT_SAVE_SUCCESS_MESS,
                 "The success message is not the same as the expected one");
+        Assert.assertEquals(editPageTitle, Constant.ARTICLE_CAT_EDIT_PAGE_TITLE);
         Logger.verifyPointPass("The success message is correct");
+
 
         Logger.testCaseStep("9 - 10", "Create a copy of this new category");
         articleCategoryPage.saveCategoryAsCopy(categoryNameEdited);
+        articleCategoryPage.clickCloseBtn();
 
         //   Verify Point
         Assert.assertTrue(articleManagerPage.isCategoryRowDisplayed(categoryName), "The new category is not present");
@@ -90,6 +95,4 @@ public class TC_JOOMLA_CATEGORY_MANAGER extends BaseTest {
 
         Logger.logTestCasePass();
     }
-
-
 }

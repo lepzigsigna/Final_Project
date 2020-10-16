@@ -16,14 +16,24 @@
     <test name="Test-Firefox">
         <parameter name="browser" value="Fire-fox"/>
         <classes>
-
+            <class name="testcase.TO_JOOMLA_ARTICLE"/>
+            <class name="testcase.TC_JOOMLA_CONTACTS"/>
+            <class name="testcase.TO_JOOMLA_WEBLINKS"/>
+            <class name="testcase.TC_JOOMLA_CATEGORY_MANAGER"/>
+            <class name="testcase.TC_JOOMLA_BANNERS_BANNERS"/>
+            <class name="testcase.TC_JOOMLA_BANNERS_CLIENTS"/>
         </classes>
     </test>
 
     <test name="Test-Edge">
         <parameter name="browser" value="Edge"/>
         <classes>
-
+            <class name="testcase.TO_JOOMLA_ARTICLE"/>
+            <class name="testcase.TC_JOOMLA_CONTACTS"/>
+            <class name="testcase.TO_JOOMLA_WEBLINKS"/>
+            <class name="testcase.TC_JOOMLA_CATEGORY_MANAGER"/>
+            <class name="testcase.TC_JOOMLA_BANNERS_BANNERS"/>
+            <class name="testcase.TC_JOOMLA_BANNERS_CLIENTS"/>
         </classes>
     </test>
 </suite>

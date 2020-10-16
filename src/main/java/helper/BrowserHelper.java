@@ -1,8 +1,19 @@
 package helper;
 
-public class NewWindowHelper {
-    public static boolean verifyPopupWindowURL(String URL) {
-        boolean result = false;
+import pageobject.other.page.BasePage;
+
+import java.util.Set;
+
+public class BrowserHelper {
+    private static BasePage basePage = new BasePage();
+
+    public static int getNumOfActiveWindow() {
+        Set<String> winHandles = DriverHelper.getWebDriver().getWindowHandles();
+        return winHandles.size();
+    }
+
+    public static String getPopupWindowURL() {
+       String URL = "";
         //Store the main window
         String mainWindow = DriverHelper.getWebDriver().getWindowHandle();
 
@@ -11,13 +22,14 @@ public class NewWindowHelper {
 
             if (!windowHandle.equals(mainWindow)) {
                 DriverHelper.getWebDriver().switchTo().window(windowHandle);
-                if (DriverHelper.getWebDriver().getCurrentUrl().equalsIgnoreCase(URL)) {
-                    result = true;
-                }
+                basePage.waitPopUpPageHeader();
+                URL = DriverHelper.getCurrentURL();
                 DriverHelper.getWebDriver().close();
             }
             DriverHelper.getWebDriver().switchTo().window(mainWindow);
         }
-        return result;
+        return URL;
     }
+
+
 }

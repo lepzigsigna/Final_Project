@@ -4,8 +4,8 @@ import helper.DataHelper;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageobject.LoginPage;
-import pageobject.MainPage;
+import pageobject.other.page.LoginPage;
+import pageobject.other.page.MainPage;
 import pageobject.banner.page.BannerManagerPage;
 import pageobject.banner.page.BannerClientPage;
 import utils.Constant;
@@ -73,6 +73,7 @@ public class TC_JOOMLA_BANNERS_CLIENTS extends BaseTest {
         Assert.assertTrue(bannerManagerPage.isClientDisplayed(clientName));
         Logger.verifyPointPass("Correct message and client '" + clientName + "' present");
 
+
         Logger.testCaseStep("11 - 12", "Perform search for the newly created client");
         bannerManagerPage.performSearch(clientName);
 
@@ -100,13 +101,12 @@ public class TC_JOOMLA_BANNERS_CLIENTS extends BaseTest {
 
         Logger.testCaseStep("6 - 9", "Create a new Client");
         newClientPage.createNewClient(clientName, contactName, contactEmail);
-        newClientPage.getcolor();
-        //  Verify Point
-        Assert.assertFalse(newClientPage.validStatusOfContactEmailField());
-        //Finding a way to verify the color code of the Contact Email field
-        Assert.assertEquals(newClientPage.getInvalidFieldMsg(),Constant.INVALID_FIELD_EMAIL_MESS);
-        Logger.verifyPointPass("The Contact mail box changed to red");
 
+        //  Verify Point
+        Assert.assertEquals(newClientPage.getcolorOfEmailField(),Constant.HEX_CODE_INVALID_FIELD,"The email field is not red!");
+        Assert.assertFalse(newClientPage.validStatusOfContactEmailField(),"The status of the email field is not correct");
+        Assert.assertEquals(newClientPage.getInvalidFieldMsg(),Constant.INVALID_FIELD_EMAIL_MESS,"The invalid message is not the same as the expected one");
+        Logger.verifyPointPass("The Contact mail box changed to red");
 
     }
 }

@@ -1,13 +1,12 @@
 package testcase;
 
 import helper.DataHelper;
-import helper.NewWindowHelper;
-import org.openqa.selenium.NoSuchElementException;
+import helper.BrowserHelper;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pageobject.LoginPage;
-import pageobject.MainPage;
+import pageobject.other.page.LoginPage;
+import pageobject.other.page.MainPage;
 import pageobject.banner.page.BannerManagerPage;
 import pageobject.banner.page.BannerBannerPage;
 import pageobject.banner.page.BannerCategoryPage;
@@ -31,7 +30,7 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
 
 
     @Test(testName = "TC_JOOMLA_BANNERS_BANNERS_005")
-    public void TC_JOOMLA_BANNERS_BANNERS_005() throws NoSuchElementException {
+    public void TC_JOOMLA_BANNERS_BANNERS_005() {
         Logger.testCaseHeader("TC_JOOMLA_BANNERS_BANNERS_005");
         Logger.testCaseDescription("Verify that user can archive a banner");
 
@@ -61,7 +60,6 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
 
         Logger.testCaseStep("16 -17", "Create a new Category");
         newCategoryPage.createNewCategory(categoryName);
-        bannerManagerPage.chooseNewlyCreatedCategory(categoryName);
 
         //  Verify point
         Assert.assertEquals(bannerManagerPage.getSuccessMsg(), Constant.ARTICLE_CATEGORY_SAVED_SUCCESS_MESS);
@@ -110,12 +108,10 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
         newBannerPage.clickHelpBtn();
 
         //  Verify Point
-        Assert.assertTrue(NewWindowHelper.verifyPopupWindowURL
-                        (Constant.BANNER_HELP_PAGE_URL));
-        Logger.verifyPointPass("The 'New Banner Help' page appeared");
+        Assert.assertEquals(BrowserHelper.getNumOfActiveWindow(),Constant.BANNER_HELP_WINDOW_COUNT,"The total amount of active windows is not 2");
+        Assert.assertEquals(BrowserHelper.getPopupWindowURL(),Constant.BANNER_HELP_PAGE_URL,"The popup page URL is not correct");
+        Logger.verifyPointPass("The correct 'New Banner Help' page appeared");
 
         Logger.logTestCasePass();
     }
-
-
 }

@@ -4,11 +4,13 @@ import helper.DriverHelper;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import utils.Constant;
 import utils.Logger;
 
 public class BaseTest extends DriverHelper {
-    //    @BeforeMethod
+
+//    @BeforeMethod
 //    @Parameters("browser")
 //    public void setUpBrowser(String browser) {
 //        //Choose WebDriver following the testng.xml file
@@ -24,6 +26,8 @@ public class BaseTest extends DriverHelper {
 //        //Navigate to the Home Page
 //        navigateToURL(Constant.BASE_URL);
 //    }
+
+
 
     @BeforeMethod
     public void setUpBrowser1() {

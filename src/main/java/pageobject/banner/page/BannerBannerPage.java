@@ -3,7 +3,7 @@ package pageobject.banner.page;
 import helper.DriverHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import pageobject.BasePage;
+import pageobject.other.page.BasePage;
 import utils.Logger;
 
 public class BannerBannerPage extends BasePage {
@@ -12,14 +12,15 @@ public class BannerBannerPage extends BasePage {
      */
     private By byClientDropdown = By.cssSelector("div[id='jform_cid_chzn']>a");
     private By byBannerDetailsTab = By.cssSelector("div.form-horizontal li>a[href='#otherparams']");
+    private String xpathDropdownOption = "//ul[@class='chzn-results']/li[text()='%s']";
+
     /**
      * WEB ELEMENTS
      */
 
-//    private WebElement bannerName() {
-//        return DriverHelper.getWebDriver().findElement(byBannerName);
-//    }
 
+    private WebElement dropdownOption(String option) {
+        return DriverHelper.getWebDriver().findElement(By.xpath(String.format(xpathDropdownOption, option))); }
 
     private WebElement clientDropdown() {
         return DriverHelper.getWebDriver().findElement(byClientDropdown);
@@ -32,11 +33,9 @@ public class BannerBannerPage extends BasePage {
      * METHODS
      */
     public void createNewBanner(String bannerName,String categoryOption, String clientName) {
-        nameField().sendKeys(bannerName);
+        enterNameField(bannerName);
         Logger.info("   Enter banner name: " + bannerName);
-        clickWhenElementReady(categoryDropdown());
-        clickWhenElementReady(dropdownOption(categoryOption));
-        Logger.info("   Choose Category Dropdown: " + categoryOption);
+        selectCategory(categoryOption);
         clickWhenElementReady(bannerDetailsTab());
         clickWhenElementReady(clientDropdown());
         clickWhenElementReady(dropdownOption(clientName));
@@ -44,8 +43,4 @@ public class BannerBannerPage extends BasePage {
         clickSaveAndCloseBtn();
     }
 
-    public void clickHelpBtn() {
-        clickWhenElementReady(helpBtn());
-        Logger.info("Clicked the Help button");
-    }
 }
