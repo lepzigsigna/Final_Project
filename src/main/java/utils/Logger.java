@@ -27,12 +27,17 @@ public class Logger {
         logger.info("[STEP " + stepCount + "]: " + stepDescription);
     }
 
-    public static void logTestCasePass() {
+    public static void logTestCasePassed() {
         logger.info("------------------------------ Test Result --------------------------------");
         logger.info("----------------TEST CASE PASSED! All actual results are correct!----------");
     }
 
-    public static void logTestCaseFail() {
+    public static void logTestCaseFailed() {
+        logger.info("------------------------------ Test Result --------------------------------");
+        logger.info("---------------------------TEST CASE FAILED!-------------------------------");
+    }
+
+    public static void logTestCaseSkipped() {
         logger.info("------------------------------ Test Result --------------------------------");
         logger.info("------TEST CASE FAILED! Actual result(s) does not match expected ones!-----");
     }
@@ -40,5 +45,4 @@ public class Logger {
     public static void verifyPointPass(String passMsg) {
         logger.info("VERIFY POINT PASSED: " + passMsg);
     }
-
 }

@@ -14,7 +14,6 @@ public class MainPage extends BasePage {
     private By bySubMenuWebLink = By.xpath("//li[@class='dropdown open']//a[@class='dropdown-toggle menu-weblinks' and .='Web Links']");
     private String xpathSubMenuBannerItem = "//ul[@id='nav-empty']/li/a[text()='%s']";
 
-
     /**
      * WEB ELEMENTS
      */

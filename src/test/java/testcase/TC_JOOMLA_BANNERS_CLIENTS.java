@@ -46,8 +46,6 @@ public class TC_JOOMLA_BANNERS_CLIENTS extends BaseTest {
         Assert.assertEquals(bannerManagerPage.getSuccessMsg(), Constant.CLIENT_SAVE_SUCCESS_MESS);
         Assert.assertTrue(bannerManagerPage.isClientDisplayed(clientName));
         Logger.verifyPointPass("Correct message and client '" + clientName + "' present");
-
-        Logger.logTestCasePass();
     }
 
     @Test(testName = "TC_JOOMLA_BANNERS_CLIENTS_008")
@@ -80,12 +78,10 @@ public class TC_JOOMLA_BANNERS_CLIENTS extends BaseTest {
         //  Verify Point
         Assert.assertTrue(bannerManagerPage.isClientDisplayed(clientName));
         Logger.verifyPointPass("The client '" + clientName + "' presents");
-
-        Logger.logTestCasePass();
     }
 
-    @Test (testName = "TC_JOOMLA_BANNERS_CLIENTS_015")
-    public void TC_JOOMLA_BANNERS_CLIENTS_015 () {
+    @Test(testName = "TC_JOOMLA_BANNERS_CLIENTS_015")
+    public void TC_JOOMLA_BANNERS_CLIENTS_015() {
         Logger.testCaseHeader("TC_JOOMLA_BANNERS_CLIENTS_015");
         Logger.testCaseDescription("Verify that user cannot create a new client after entering invalid email address");
 
@@ -103,10 +99,9 @@ public class TC_JOOMLA_BANNERS_CLIENTS extends BaseTest {
         newClientPage.createNewClient(clientName, contactName, contactEmail);
 
         //  Verify Point
-        Assert.assertEquals(newClientPage.getcolorOfEmailField(),Constant.HEX_CODE_INVALID_FIELD,"The email field is not red!");
-        Assert.assertFalse(newClientPage.validStatusOfContactEmailField(),"The status of the email field is not correct");
-        Assert.assertEquals(newClientPage.getInvalidFieldMsg(),Constant.INVALID_FIELD_EMAIL_MESS,"The invalid message is not the same as the expected one");
+        Assert.assertEquals(newClientPage.getcolorOfEmailField(), Constant.HEX_CODE_INVALID_FIELD, "The email field is not red!");
+        Assert.assertFalse(newClientPage.validStatusOfContactEmailField(), "The status of the email field is not correct");
+        Assert.assertEquals(newClientPage.getInvalidFieldMsg(), Constant.INVALID_FIELD_EMAIL_MESS, "The invalid message is not the same as the expected one");
         Logger.verifyPointPass("The Contact mail box changed to red");
-
     }
 }

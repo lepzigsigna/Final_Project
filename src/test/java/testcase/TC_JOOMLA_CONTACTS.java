@@ -11,7 +11,7 @@ import pageobject.other.page.MainPage;
 import utils.Constant;
 import utils.Logger;
 
-public class TC_JOOMLA_CONTACTS extends BaseTest{
+public class TC_JOOMLA_CONTACTS extends BaseTest {
 
     private LoginPage loginPage = new LoginPage();
     private MainPage mainPage = new MainPage();
@@ -24,8 +24,8 @@ public class TC_JOOMLA_CONTACTS extends BaseTest{
         loginPage.login(Constant.VALID_USERNAME, Constant.VALID_PASSWORD);
     }
 
-    @Test (testName = "TC_JOOMLA_CONTACTS_005")
-    public void TC_JOOMLA_CONTACTS_005()   {
+    @Test(testName = "TC_JOOMLA_CONTACTS_005")
+    public void TC_JOOMLA_CONTACTS_005() {
         Logger.testCaseHeader("TC_JOOMLA_CONTACTS_005");
         Logger.testCaseDescription("Verify user can move a contact to the archive");
         //  Test Data
@@ -41,10 +41,10 @@ public class TC_JOOMLA_CONTACTS extends BaseTest{
         contactManagerPage.clickNewBtn();
 
         Logger.testCaseStep("7, 8, 9, 10", "Create a new contact");
-        contactContactPage.createContact(contactName,contactCategory,contactStatus);
+        contactContactPage.createContact(contactName, contactCategory, contactStatus);
 
         //  Verify point
-        Assert.assertEquals(contactManagerPage.getSuccessMsg(), Constant.CONTACT_SAVED_SUCCESS_MESS,"The successful message is not correct");
+        Assert.assertEquals(contactManagerPage.getSuccessMsg(), Constant.CONTACT_SAVED_SUCCESS_MESS, "The successful message is not correct");
         Assert.assertTrue(contactManagerPage.isContactRowDisplayed(contactName), "The new Contact is not displayed in the table");
         Logger.verifyPointPass("Correct message and the contact present");
 
@@ -62,25 +62,22 @@ public class TC_JOOMLA_CONTACTS extends BaseTest{
         //  Verify point
         Assert.assertTrue(contactManagerPage.isContactRowDisplayed(contactName), "The new Contact is not displayed in the table");
         Logger.verifyPointPass("Correct contact present in the Archive");
-
-        Logger.logTestCasePass();
-
     }
 
 
-    @Test (testName = "TC_JOOMLA_CONTACTS_012")
+    @Test(testName = "TC_JOOMLA_CONTACTS_012")
     public void TC_JOOMLA_CONTACTS_012() {
         Logger.testCaseHeader("TC_JOOMLA_CONTACTS_012");
         Logger.testCaseDescription("Verify user can paging the contacts using the paging control");
 
         //  Test data
-        String[] rowLimit = {"5","All"};
+        String[] rowLimit = {"5", "All"};
         int totalContact;
         //  Steps
-        Logger.testCaseStep("4","Open the Contact Manager page");
+        Logger.testCaseStep("4", "Open the Contact Manager page");
         mainPage.clickSubMenuItem(Constant.menuItem.Components, Constant.subMenuItem.Contacts);
 
-        Logger.testCaseStep("5","Select item '5' of the 'Display' dropdown list");
+        Logger.testCaseStep("5", "Select item '5' of the 'Display' dropdown list");
         contactManagerPage.selectListLimit(rowLimit[0]);
 
         //  Verify point
@@ -88,18 +85,14 @@ public class TC_JOOMLA_CONTACTS extends BaseTest{
                 "The total in the table is not " + rowLimit[0]);
         Logger.verifyPointPass("Correct paging of the table");
 
-        Logger.testCaseStep("7","Select item 'All' of the 'Display' dropdown list");
+        Logger.testCaseStep("7", "Select item 'All' of the 'Display' dropdown list");
         //  Get total number of contact
         totalContact = contactManagerPage.getTotalContact();
         contactManagerPage.selectListLimit(rowLimit[1]);
 
         //  Verify point
-        Assert.assertFalse(contactManagerPage.isPageNavigationBarDisplayed());
-        Assert.assertEquals(totalContact,contactManagerPage.getContactRowCount());
+        Assert.assertEquals(totalContact, contactManagerPage.getContactRowCount());
         Logger.verifyPointPass("All contact are displayed in one page");
-
-        Logger.logTestCasePass();
     }
-
 
 }

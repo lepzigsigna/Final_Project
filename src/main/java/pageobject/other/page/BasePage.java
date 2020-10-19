@@ -108,7 +108,7 @@ public class BasePage {
         return DriverHelper.getWebDriver().findElement(By.xpath(String.format(xpathDropdownOption, option)));
     }
 
-    protected List<WebElement> goToPageBtn() {
+    private List<WebElement> goToPageBtn() {
         return DriverHelper.getWebDriver().findElements(byGoToPageBtn);
     }
 
@@ -116,7 +116,7 @@ public class BasePage {
         return DriverHelper.getWebDriver().findElement(byGoToNextPageBtn);
     }
 
-    protected WebElement goToLastPageBtn() {
+    private WebElement goToLastPageBtn() {
         return DriverHelper.getWebDriver().findElement(byGoToLastPageBtn);
     }
 
@@ -210,6 +210,10 @@ public class BasePage {
         clickWhenElementReady(searchToolsBtn());
     }
 
+    public void clickGoToLastPageBtn() {
+        clickWhenElementReady(goToLastPageBtn());
+    }
+
     public void enterNameField(String name) {
         nameField().sendKeys(name);
         Logger.info("   Entered name: " + name);
@@ -221,7 +225,6 @@ public class BasePage {
         titleField().sendKeys(title);
         Logger.info("   Entered title: " + title);
     }
-
 
     public void selectSortOption(String status) {
         clickWhenElementReady(sortDropdown());
@@ -268,26 +271,6 @@ public class BasePage {
 
     public void waitPopUpPageHeader() {
         waitUntilVisible(popUpPageHeader());
-    }
-
-    public void chooseNewlyCreatedContent(WebElement element) throws NoSuchElementException {
-        while (true) {
-            try {
-                if (isElementPresent(element) == false) {
-                } else {
-                    clickWhenElementReady(element);
-                    break;
-                }
-            } catch (NoSuchElementException e) {
-                if (!isElementPresent(goToNextPageBtn())) {
-                    Logger.info("Reached the last page. Stop looking");
-                    break;
-                }
-                Logger.info("   The new Content is not on this page. Go to the next page");
-                DriverHelper.scrollToDownToElement(goToNextPageBtn());
-                clickWhenElementReady(goToNextPageBtn());
-            }
-        }
     }
 
     public boolean isElementPresent(By by) throws NoSuchElementException {
@@ -341,26 +324,4 @@ public class BasePage {
         WebDriverWait wait = new WebDriverWait(DriverHelper.getWebDriver(), Constant.EXPLICIT_WAIT);
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
-
-    public void insertImage(WebElement imgBtn, WebElement insertIframe, WebElement imgIframe, WebElement image, WebElement insertBtn) {
-        clickWhenElementReady(imgBtn);
-        Logger.info("   Click the image button");
-
-        waitUntilVisible(insertIframe);
-        DriverHelper.getWebDriver().switchTo().frame(insertIframe);
-
-        waitUntilVisible(imgIframe);
-        DriverHelper.getWebDriver().switchTo().frame(imgIframe);
-
-        clickWhenElementReady(image);
-        Logger.info("   Choose image");
-
-        DriverHelper.getWebDriver().switchTo().defaultContent();
-        DriverHelper.getWebDriver().switchTo().frame(insertIframe);
-        clickWhenElementReady(insertBtn);
-        Logger.info("   Click the Insert button");
-        DriverHelper.getWebDriver().switchTo().defaultContent();
-    }
-
-
 }

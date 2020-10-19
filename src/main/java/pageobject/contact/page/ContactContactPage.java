@@ -17,7 +17,6 @@ public class ContactContactPage extends BasePage {
     /**
      * WEB ELEMENTS
      */
-
     private WebElement statusDropdown() {
         return DriverHelper.getWebDriver().findElement(byStatusDropdown);
     }
@@ -29,7 +28,6 @@ public class ContactContactPage extends BasePage {
     /**
      * METHODS
      */
-
     private void enterContactName(String contactName) {
         enterNameField(contactName);
     }

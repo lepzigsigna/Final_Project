@@ -20,9 +20,11 @@ public class BannerClientPage extends BasePage {
     private WebElement contactName() {
         return DriverHelper.getWebDriver().findElement(byContactName);
     }
+
     private WebElement contactEmail() {
         return DriverHelper.getWebDriver().findElement(byContactEmail);
     }
+
     private WebElement invalidFieldMsg() {
         return DriverHelper.getWebDriver().findElement(byInvalidFieldMsg);
     }
@@ -53,6 +55,6 @@ public class BannerClientPage extends BasePage {
     }
 
     public String getcolorOfEmailField() {
-       return getColorCodeOf(contactEmail());
+        return getColorCodeOf(contactEmail());
     }
 }

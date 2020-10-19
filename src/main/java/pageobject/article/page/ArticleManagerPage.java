@@ -14,7 +14,6 @@ public class ArticleManagerPage extends BasePage {
     /**
      * LOCATORS
      */
-    //Fix this to dynamic xpath contains a article name//
     private String xpathArticleCheckbox = "//tbody/tr[contains(@class,'row') and td[@class='has-context' and contains(.,'%s')] and td[contains(.,'%s')]]//input";
     private String xpathCategoryCheckBox = "//td/a[contains(text(),'%s')]/ancestor::tr//input[@type='checkbox']";
     private By byArticleRowCount = By.xpath("//input[contains(@id,'cb')]");
@@ -40,6 +39,10 @@ public class ArticleManagerPage extends BasePage {
         return DriverHelper.getWebDriver().findElements(byArticleRowCount);
     }
 
+    private List<WebElement> goToPageBtn() {
+        return DriverHelper.getWebDriver().findElements(byGoToPageBtn);
+    }
+
     /**
      * METHODS
      */
@@ -57,13 +60,18 @@ public class ArticleManagerPage extends BasePage {
         return articleRows().size();
     }
 
+    /***
+     * First calculate the Paging of the page
+     * Second calculate the (Total page - 1) (line 75)
+     * Then calculate the total item, it will be equal to the (Total page - 1)*(Num of item on 1 page) + (item on the last page)
+     */
     public int getTotalArticle() {
         int listLimit;
         int total;
         int totalPage;
         listLimit = getArticleRowCount();
-        DriverHelper.scrollToDownToElement(goToLastPageBtn());
-        clickWhenElementReady(goToLastPageBtn());
+        clickGoToLastPageBtn();
+        //  Has to used this method instead of goToPageBtn().size() since the maximum size of the goToPageBtn list is always 10
         totalPage = Integer.parseInt(goToPageBtn().get(goToPageBtn().size() - 1).getText().trim());
         total = getArticleRowCount() + listLimit * totalPage;
         return total;
@@ -71,14 +79,9 @@ public class ArticleManagerPage extends BasePage {
 
     public void moveCategoryToTrash(String categoryName) {
         selectSortByIDDescending();
-        chooseNewlyCreatedCategory(categoryName);
+        clickWhenElementReady(categoryCheckBox(categoryName));
         clickTrashBtn();
     }
-
-    public void chooseNewlyCreatedCategory(String categoryName) throws NoSuchElementException {
-        chooseNewlyCreatedContent(categoryCheckBox(categoryName));
-    }
-
 
     public boolean isArticleRowDisplayed(String articleTitle, String author) {
         selectSortByIDDescending();

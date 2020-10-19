@@ -11,7 +11,6 @@ public class BannerCategoryPage extends BasePage {
      * WEB ELEMENTS
      */
 
-
     /**
      * METHODS
      */

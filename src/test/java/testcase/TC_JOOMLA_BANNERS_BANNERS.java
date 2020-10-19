@@ -91,8 +91,6 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
         //   Verify Point
         Assert.assertTrue(bannerManagerPage.isBannerDisplayed(bannerName));
         Logger.verifyPointPass("Correct banner with name '" + bannerName + "' present");
-
-        Logger.logTestCasePass();
     }
 
     @Test(testName = "TC_JOOMLA_BANNERS_BANNERS_012")
@@ -100,18 +98,18 @@ public class TC_JOOMLA_BANNERS_BANNERS extends BaseTest {
         Logger.testCaseHeader("TC_JOOMLA_BANNERS_BANNERS_012");
         Logger.testCaseDescription("User can browse 'New Banner help' page in 'New banner' page");
 
-        Logger.testCaseStep("5 - 6", "Open the New Banner page");
+        Logger.testCaseStep("5", "Open the Banner manager page");
         mainPage.clickSubMenuBannerItem("Banners");
+
+        Logger.testCaseStep("6", "Open the New Banner page");
         bannerManagerPage.clickNewBtn();
 
         Logger.testCaseStep("7", "Click the Help button");
         newBannerPage.clickHelpBtn();
 
         //  Verify Point
-        Assert.assertEquals(BrowserHelper.getNumOfActiveWindow(),Constant.BANNER_HELP_WINDOW_COUNT,"The total amount of active windows is not 2");
-        Assert.assertEquals(BrowserHelper.getPopupWindowURL(),Constant.BANNER_HELP_PAGE_URL,"The popup page URL is not correct");
+        Assert.assertEquals(BrowserHelper.getNumOfActiveWindow(), Constant.BANNER_HELP_WINDOW_COUNT, "The total amount of active windows is not 2");
+        Assert.assertEquals(BrowserHelper.getPopupWindowURL(), Constant.BANNER_HELP_PAGE_URL, "The popup page URL is not correct");
         Logger.verifyPointPass("The correct 'New Banner Help' page appeared");
-
-        Logger.logTestCasePass();
     }
 }

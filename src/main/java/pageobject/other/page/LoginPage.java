@@ -29,11 +29,9 @@ public class LoginPage extends BasePage {
         return DriverHelper.getWebDriver().findElement(byLoginBtn);
     }
 
-
     /**
-     *  METHODS
+     * METHODS
      */
-
     public void login(String username, String password) {
         usernameField().clear();
         usernameField().sendKeys(username);
@@ -43,18 +41,6 @@ public class LoginPage extends BasePage {
         loginBtn().click();
         Logger.info("   Clicked Login button");
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

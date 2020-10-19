@@ -29,6 +29,9 @@ public class ContactManagerPage extends BasePage {
         return DriverHelper.getWebDriver().findElements(byContactRowCount);
     }
 
+    private List<WebElement> goToPageBtn() {
+        return DriverHelper.getWebDriver().findElements(byGoToPageBtn);
+    }
 
     /**
      * METHODS
@@ -43,14 +46,18 @@ public class ContactManagerPage extends BasePage {
         clickArchiveBtn();
     }
 
-
+    /***
+     * First calculate the Paging of the page
+     * Second calculate the (Total page - 1) (line 60)
+     * Then calculate the total item, it will be equal to the (Total page - 1)*(Num of item on 1 page) + (item on the last page)
+     */
     public int getTotalContact() {
         int listLimit;
         int total;
         int totalPage;
         listLimit = getContactRowCount();
-        DriverHelper.scrollToDownToElement(goToLastPageBtn());
-        clickWhenElementReady(goToLastPageBtn());
+        clickGoToLastPageBtn();
+        //  Has to used this method instead of goToPageBtn().size() since the maximum size of the goToPageBtn list is always 10
         totalPage = Integer.parseInt(goToPageBtn().get(goToPageBtn().size() - 1).getText().trim());
         total = getContactRowCount() + listLimit * totalPage;
         return total;
@@ -64,10 +71,5 @@ public class ContactManagerPage extends BasePage {
         selectSortByIDDescending();
         return isElementPresent(recentContactCheckBox(contactName));
     }
-
-    public boolean isPageNavigationBarDisplayed() {
-        return isElementPresent(byGoToPageBtn) && isElementPresent(goToLastPageBtn());
-    }
-
 
 }

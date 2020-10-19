@@ -20,19 +20,21 @@ public class BannerBannerPage extends BasePage {
 
 
     private WebElement dropdownOption(String option) {
-        return DriverHelper.getWebDriver().findElement(By.xpath(String.format(xpathDropdownOption, option))); }
+        return DriverHelper.getWebDriver().findElement(By.xpath(String.format(xpathDropdownOption, option)));
+    }
 
     private WebElement clientDropdown() {
         return DriverHelper.getWebDriver().findElement(byClientDropdown);
     }
 
-    private WebElement bannerDetailsTab () {return DriverHelper.getWebDriver().findElement(byBannerDetailsTab);}
-
+    private WebElement bannerDetailsTab() {
+        return DriverHelper.getWebDriver().findElement(byBannerDetailsTab);
+    }
 
     /**
      * METHODS
      */
-    public void createNewBanner(String bannerName,String categoryOption, String clientName) {
+    public void createNewBanner(String bannerName, String categoryOption, String clientName) {
         enterNameField(bannerName);
         Logger.info("   Enter banner name: " + bannerName);
         selectCategory(categoryOption);

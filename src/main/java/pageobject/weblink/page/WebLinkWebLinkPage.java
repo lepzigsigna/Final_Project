@@ -49,25 +49,23 @@ public class WebLinkWebLinkPage extends BasePage {
      * METHODS
      */
     public void insertImage(String imageName) {
-        Logger.info(" + Click image button");
-        clickWhenElementReady(imageBtn());
-
-        Logger.info(" + Choose image");
         DriverHelper.getWebDriver().switchTo().frame(insertIframe());
         DriverHelper.getWebDriver().switchTo().frame(imageIframe());
         clickWhenElementReady(image(imageName));
+        Logger.info(" + Choose image name: " + imageName);
 
-        Logger.info(" + Click Insert button");
         DriverHelper.getWebDriver().switchTo().defaultContent();
         DriverHelper.getWebDriver().switchTo().frame(insertIframe());
         clickWhenElementReady(insertBtn());
+        Logger.info(" + Click Insert button");
         DriverHelper.getWebDriver().switchTo().defaultContent();
     }
-
 
     public void createNewWebLink(String title, String URL, String imageName) {
         enterTitleField(title);
         URLField().sendKeys(URL);
+        clickWhenElementReady(imageBtn());
+        Logger.info(" + Click image button");
         insertImage(imageName);
         clickSaveAndCloseBtn();
     }

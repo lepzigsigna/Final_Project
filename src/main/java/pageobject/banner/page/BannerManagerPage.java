@@ -30,7 +30,6 @@ public class BannerManagerPage extends BasePage {
     }
 
 
-
     /**
      * METHODS
      */
@@ -45,7 +44,6 @@ public class BannerManagerPage extends BasePage {
         clickCheckBox(bannerName);
         clickArchiveBtn();
     }
-
 
     public boolean isClientDisplayed(String clientName) {
         selectSortByIDDescending();

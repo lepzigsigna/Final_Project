@@ -6,7 +6,7 @@ public class DataHelper {
     private static Faker faker = new Faker();
 
     public static String generateName() {
-        return faker.name().firstName() + "_" + faker.letterify("???") + ">VN";
+        return faker.name().firstName() + faker.letterify("_?????>VN");
     }
 
     public static String generateEmail() {
@@ -14,11 +14,11 @@ public class DataHelper {
     }
 
     public static String generateCategoryName() {
-        return faker.country().name() + "_" + faker.number().numberBetween(0, 100);
+        return faker.country().name() + faker.letterify("_?????>VN");
     }
 
     public static String generateArticleTitle() {
-        return faker.country().capital() + "_" + faker.letterify("???") + ">VN";
+        return faker.country().capital() + faker.letterify("_?????>VN");
     }
 
     public static String generateArticleContent() {

@@ -7,19 +7,14 @@ public class ArticleCategoryPage extends BasePage {
     /**
      * LOCATORS
      */
-//    private By byStatusDropdown = By.xpath("//div[@class='controls']/select[@id='jform_published']/..");
 
     /**
      * WEB ELEMENTS
      */
-//    private WebElement statusDropdown() {
-//        return DriverHelper.getWebDriver().findElement(byStatusDropdown);
-//    }
 
     /**
      * METHODS
      */
-
     private void enterCategoryName(String title) {
         enterTitleField(title);
     }

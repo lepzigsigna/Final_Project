@@ -7,28 +7,24 @@ import pageobject.other.page.BasePage;
 
 public class WebLinkManagerPage extends BasePage {
     /**
-     *  LOCATORS
+     * LOCATORS
      */
     private String xpathWebLinkRow = "//td[@class='nowrap has-context']//a[contains(text(),'%s')]/ancestor::tr";
 
     /**
-     *  ELEMENTS
+     * ELEMENTS
      */
     private WebElement webLinkRow(String weblinkName) {
-        return DriverHelper.getWebDriver().findElement(By.xpath(String.format(xpathWebLinkRow,weblinkName)));
+        return DriverHelper.getWebDriver().findElement(By.xpath(String.format(xpathWebLinkRow, weblinkName)));
     }
 
-
     /**
-     *  METHODS
+     * METHODS
      */
     public boolean isWebLinkDisplayed(String webLinkName) {
         selectSortByIDDescending();
         return isElementPresent(webLinkRow(webLinkName));
     }
-
-
-
 
 
 }

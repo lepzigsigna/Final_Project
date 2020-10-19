@@ -54,8 +54,6 @@ public class TC_JOOMLA_CATEGORY_MANAGER extends BaseTest {
         articleManagerPage.selectStatus("Trashed");
         Assert.assertTrue(articleManagerPage.isCategoryRowDisplayed(categoryName));
         Logger.verifyPointPass("The correct category is displayed in Trashed section");
-
-        Logger.logTestCasePass();
     }
 
     @Test(testName = "TC_JOOMLA_CATEGORY_MANAGER_013")
@@ -92,7 +90,5 @@ public class TC_JOOMLA_CATEGORY_MANAGER extends BaseTest {
         Assert.assertTrue(articleManagerPage.isCategoryRowDisplayed(categoryName), "The new category is not present");
         Assert.assertTrue(articleManagerPage.isCategoryRowDisplayed(categoryNameEdited), "The edited category is not present");
         Logger.verifyPointPass("Both categories present on the page");
-
-        Logger.logTestCasePass();
     }
 }

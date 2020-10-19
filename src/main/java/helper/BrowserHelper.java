@@ -13,7 +13,7 @@ public class BrowserHelper {
     }
 
     public static String getPopupWindowURL() {
-       String URL = "";
+        String URL = "";
         //Store the main window
         String mainWindow = DriverHelper.getWebDriver().getWindowHandle();
 

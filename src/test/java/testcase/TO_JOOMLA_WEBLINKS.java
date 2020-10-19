@@ -46,8 +46,6 @@ public class TO_JOOMLA_WEBLINKS extends BaseTest {
         Assert.assertEquals(webLinkManagerPage.getSuccessMsg(), Constant.WEBLINK_SAVE_SUCCESS_MESS, "The successful message is not correct");
         Assert.assertTrue(webLinkManagerPage.isWebLinkDisplayed(webLinkName));
         Logger.verifyPointPass("The message is correct and the weblink " + webLinkName + " is present");
-
-        Logger.logTestCasePass();
     }
 
 }

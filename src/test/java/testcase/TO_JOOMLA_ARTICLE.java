@@ -63,10 +63,7 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
         //  Verify point
         Assert.assertTrue(articleManagerPage.isArticleRowDisplayed(articleTitle, Constant.ARTICLE_AUTHOR), "The new Article is not displayed in the table");
         Logger.verifyPointPass("Correct Article present in the Archive");
-
-        Logger.logTestCasePass();
     }
-
 
     @Test(testName = "TO_JOOMLA_ARTICLE_012")
     public void TO_JOOMLA_ARTICLE_012() {
@@ -96,7 +93,5 @@ public class TO_JOOMLA_ARTICLE extends BaseTest {
         Assert.assertFalse(articleManagerPage.isPageNavigationBarDisplayed());
         Assert.assertEquals(totalArticle, articleManagerPage.getArticleRowCount());
         Logger.verifyPointPass("All articles are displayed in one page");
-
-        Logger.logTestCasePass();
     }
 }

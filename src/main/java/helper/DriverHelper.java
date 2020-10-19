@@ -56,7 +56,7 @@ public class DriverHelper {
 
     public static void setBrowserProperties() {
         driver.manage().timeouts().pageLoadTimeout(Constant.PAGE_LOAD_TIME_OUT, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(Constant.IMPLICIT_WAIT,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Constant.IMPLICIT_WAIT, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
 
@@ -95,14 +95,14 @@ public class DriverHelper {
 
     public static void hoverMouseOver(WebElement element) {
         Actions actions = new Actions(DriverHelper.getWebDriver());
-        actions.moveToElement(element).perform();
+        actions.moveToElement(element);
+        actions.perform();
     }
 
     public static void scrollToDownToElement(WebElement element) {
         JavascriptExecutor js = (JavascriptExecutor) DriverHelper.getWebDriver();
         js.executeScript("arguments[0].scrollIntoView();", element);
     }
-
 
 
 }
